@@ -1,0 +1,123 @@
+:root {
+  --color-primary: var(--business-primary, #315B52);
+  --color-primary-dark: var(--business-primary-dark, #21443C);
+  --color-primary-soft: #EDF3EF;
+
+  --color-accent: var(--business-accent, #c88f72);
+  --color-accent-dark: color-mix(in srgb, var(--color-accent), #000 15%);
+  --color-accent-light: #F4DDD1;
+  --color-accent-soft: color-mix(in srgb, var(--color-accent), #fff 88%);
+
+  --color-text: #30413B;
+  --color-text-muted: #65736E;
+
+  --color-background: #FBFAF7;
+  --color-surface: #FFFFFF;
+  --color-border: #DFE7E2;
+
+  --color-success: #23806A;
+
+  --container-width: 1180px;
+  --container-width-full-max: 100%;
+  --container-width-max: 90%;
+  --container-width-mid: 80%;
+  /* --container-width: 100%; */
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  --shadow-sm: 0 4px 18px rgba(48, 65, 59, 0.06);
+  --shadow-md: 0 12px 35px rgba(48, 65, 59, 0.10);
+  --shadow-lg: 0 24px 70px rgba(48, 65, 59, 0.15);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+}
+
+body {
+  margin: 0;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: Georgia, "Times New Roman", serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.site {
+  overflow: hidden;
+}
+
+.sectionIntro > span {
+  color: var(--color-accent);
+  font-size: 11px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+}
+
+.sectionIntro h2 {
+  margin: 10px 0 13px;
+  color: var(--color-primary);
+  font-size: clamp(36px, 6vw, 55px);
+  line-height: 1.02;
+  letter-spacing: -0.045em;
+}
+
+.sectionIntro p {
+  max-width: 620px;
+  margin: 0;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
+.sectionIntro {
+  max-width: 720px;
+}
+
+.sectionIntro > *:last-child {
+  margin-bottom: 0;
+}
+
+.container {
+  width: min(var(--container-width), var(--container-width-max));
+  margin: 0 auto;
+}
+
+:focus-visible {
+  outline: 3px solid color-mix(
+    in srgb,
+    var(--color-accent),
+    #fff 30%
+  );
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}

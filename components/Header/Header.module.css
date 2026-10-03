@@ -1,0 +1,396 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  width: 100%;
+
+  background: rgba(252, 251, 248, 0.9);
+  border-bottom: 1px solid rgba(217, 227, 222, 0.8);
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.container {
+  width: min(92%, var(--container-width));
+  margin: 0 auto;
+}
+
+.inner {
+  position: relative;
+
+  min-height: 78px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 25px;
+}
+
+/* --------------------------------
+   BRAND
+-------------------------------- */
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  flex-shrink: 0;
+
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+
+.logo{
+  display: flex;
+  font-size: 40px;
+}
+
+.brandMark::before {
+  content: "";
+
+  width: 17px;
+  height: 23px;
+
+  border: 2px solid var(--color-primary);
+  border-left-color: transparent;
+
+  border-radius: 50%;
+
+  transform: rotate(-28deg);
+}
+
+.brandMark span {
+  position: absolute;
+
+  width: 6px;
+  height: 6px;
+
+  top: 6px;
+  right: 6px;
+
+  border-radius: 50%;
+
+  background: var(--color-accent);
+}
+
+.brandText {
+  display: flex;
+  flex-direction: column;
+}
+
+.brandText strong {
+  color: var(--color-primary-dark);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.brandText small {
+  margin-top: 5px;
+
+  color: var(--color-text-muted);
+
+  font-size: 10px;
+  font-weight: 700;
+
+  line-height: 1;
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+/* --------------------------------
+   DESKTOP NAV
+-------------------------------- */
+
+.nav {
+  display: none;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 30px;
+
+  margin-left: auto;
+}
+
+.nav a {
+  position: relative;
+
+  color: var(--color-text-muted);
+
+  font-size: 13px;
+  font-weight: 800;
+
+  line-height: 1.2;
+
+  text-decoration: none;
+
+  transition: color 0.2s ease;
+}
+
+.nav a::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  bottom: -8px;
+
+  width: 0;
+  height: 1px;
+
+
+  background: var(--color-accent);
+
+  transition: width 0.2s ease;
+}
+
+.nav a:hover {
+  color: var(--color-primary-dark);
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+/* --------------------------------
+   DESKTOP CTA
+-------------------------------- */
+
+.cta {
+  display: none;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  min-height: 44px;
+
+  padding: 0 20px;
+
+  border: 1px solid var(--color-primary-dark);
+  border-radius: 999px;
+
+  background: var(--color-primary-dark);
+  color: #fff;
+
+  font-size: 15px;
+  font-weight: 500;
+
+  text-decoration: none;
+  white-space: nowrap;
+  letter-spacing: 0.5px;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.cta span {
+  font-size: 20px;
+  display: flex;
+}
+
+.cta:hover {
+  background: var(--color-primary);
+  transform: translateY(-1px);
+}
+
+/* --------------------------------
+   MOBILE MENU BUTTON
+-------------------------------- */
+
+.menuButton {
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 6px;
+
+  padding: 0;
+
+  border: 1px solid var(--color-border);
+  border-radius: 50%;
+
+  background: transparent;
+  color: var(--color-primary-dark);
+
+  cursor: pointer;
+}
+
+.menuButton span {
+  display: block;
+
+  width: 17px;
+  height: 1.5px;
+
+  background: var(--color-primary-dark);
+
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.menuButtonOpen span:first-child {
+  transform: translateY(3.75px) rotate(45deg);
+}
+
+.menuButtonOpen span:last-child {
+  transform: translateY(-3.75px) rotate(-45deg);
+}
+
+/* --------------------------------
+   MOBILE MENU
+-------------------------------- */
+
+.mobileMenu {
+  max-height: 0;
+
+  overflow: hidden;
+
+  opacity: 0;
+
+  border-top: 1px solid transparent;
+
+  transition:
+    max-height 0.3s ease,
+    opacity 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.mobileMenuOpen {
+  max-height: 500px;
+
+  opacity: 1;
+
+  border-top-color: var(--color-border);
+}
+
+.mobileMenu nav {
+  display: grid;
+
+  padding: 10px 0;
+}
+
+.mobileMenu nav a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 17px 3px;
+
+  border-bottom: 1px solid var(--color-border);
+
+  color: var(--color-primary-dark);
+
+  font-size: 17px;
+  font-weight: 500;
+
+  text-decoration: none;
+}
+
+.mobileMenu nav a span {
+  color: var(--color-accent);
+  font-size: 17px;
+}
+
+.mobileCta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  margin: 20px 0 24px;
+
+  min-height: 50px;
+
+  border-radius: 999px;
+
+  background: var(--color-primary-dark);
+  color: #fff;
+
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+
+  text-decoration: none;
+}
+
+.mobileCta span {
+  font-size: 20px;
+  display: flex;
+
+}
+
+/* --------------------------------
+   TABLET / DESKTOP
+-------------------------------- */
+
+@media (min-width: 900px) {
+  .inner {
+    min-height: 82px;
+  }
+
+  .nav {
+    display: flex;
+  }
+
+  .cta {
+    display: inline-flex;
+  }
+
+  .menuButton,
+  .mobileMenu {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  .inner {
+    min-height: 86px;
+  }
+
+  .nav {
+    gap: 34px;
+  }
+
+  .nav a {
+    font-size: 13px;
+  }
+}
+
+/* --------------------------------
+   MOBILE
+-------------------------------- */
+
+@media (max-width: 699px) {
+  .inner {
+    min-height: 70px;
+  }
+
+  .brandMark {
+    width: 36px;
+    height: 36px;
+  }
+
+  .brandText strong {
+    font-size: 18px;
+  }
+
+  .brandText small {
+    font-size: 8.5px;
+  }
+}

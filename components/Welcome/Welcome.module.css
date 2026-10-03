@@ -1,0 +1,164 @@
+.welcome {
+  padding: 70px 0 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid var(--color-primary);
+}
+
+.container {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1fr);
+
+  gap: clamp(60px, 9vw, 140px);
+
+  align-items: start;
+}
+
+/* LEFT */
+
+.intro {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eyebrow {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  margin-bottom: 1.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--color-accent);
+}
+
+/* Optional line before eyebrow text to match Image 2 */
+.eyebrow::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 1px;
+  background-color: currentColor;
+}
+
+.intro h2 {
+  font-family: "Georgia", "Garamond", "Times New Roman", serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  margin-bottom: 2rem;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.copy p {
+  font-family: "Georgia", "Garamond", "Times New Roman", serif;
+  font-size: 1.5rem;
+  line-height: 1.55;
+  font-weight: 400;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+/* --- FOOTER NOTE / AUTHOR --- */
+.note {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.note span {
+  display: inline-block;
+  width: 12px;
+  height: 1px;
+  background-color: currentColor;
+}
+
+.note p {
+  font-family: inherit;
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+/*  */
+
+/* .note > span {
+  width: 7px;
+  height: 7px;
+
+  flex: 0 0 7px;
+
+  margin-top: 7px;
+
+  border-radius: 50%;
+
+  background: var(--color-accent);
+} */
+
+/* TABLET */
+
+@media (max-width: 799px) {
+  .welcome {
+    padding: 40px 0 40px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+
+  .intro h2 {
+    max-width: 650px;
+  }
+
+  .copy {
+    max-width: 680px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 520px) {
+  .welcome {
+    padding: 40px 10px 40px;
+  }
+
+  .intro h2 {
+    font-size: 32px;
+  }
+
+  .copy > p {
+    font-size: 23px;
+    /* line-height: 1.25; */
+  }
+
+  .note {
+    margin-top: 35px;
+  }
+}

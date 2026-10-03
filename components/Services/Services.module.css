@@ -1,0 +1,226 @@
+.services {
+  padding: 70px 0 70px;
+
+  background: var(--color-background);
+}
+
+.container {
+  width: min(var(--container-width), var(--container-width-max));
+  margin: 0 auto;
+}
+
+/* HEADING */
+
+.heading {
+  max-width: 760px;
+
+  margin-bottom: 62px;
+}
+
+.eyebrow {
+  margin: 0;
+
+  color: var(--color-accent);
+
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.37em;
+  text-transform: uppercase;
+}
+
+.heading h2 {
+  max-width: 700px;
+
+  margin: 17px 0 18px;
+
+  color: var(--color-primary-dark);
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: clamp(43px, 5vw, 64px);
+  font-weight: 400;
+  line-height: 1.03;
+
+  letter-spacing: -0.045em;
+}
+
+.description {
+  max-width: 650px;
+
+  margin: 0;
+
+  color: var(--color-text-muted);
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+/* CARDS */
+
+.grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 14px;
+}
+
+.card {
+  position: relative;
+
+  min-height: 285px;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+
+  padding: 28px 30px 32px;
+
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+
+  background: var(--color-surface);
+
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease,
+    border-color 220ms ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+
+  border-color: color-mix(
+    in srgb,
+    var(--color-accent),
+    var(--color-border) 65%
+  );
+
+  box-shadow: var(--shadow-sm);
+}
+
+/* TOP */
+
+.cardTop {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.number {
+  color: var(--color-accent);
+
+  font-size: 11px;
+  font-weight: 800;
+
+  letter-spacing: 0.13em;
+}
+
+.arrow {
+  display: grid;
+  place-items: center;
+
+  width: 30px;
+  height: 30px;
+
+  border: 1px solid var(--color-border);
+
+  border-radius: 50%;
+
+  color: var(--color-primary-dark);
+
+  font-size: 13px;
+
+  transition:
+    background 180ms ease,
+    color 180ms ease,
+    border-color 180ms ease;
+}
+
+.card:hover .arrow {
+  background: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+  color: #ffffff;
+}
+
+/* CONTENT */
+
+.cardContent {
+  max-width: 330px;
+}
+
+.card h3 {
+  margin: 0 0 13px;
+
+  color: var(--color-primary-dark);
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.15;
+
+  letter-spacing: -0.025em;
+}
+
+.card p {
+  margin: 0;
+
+  color: var(--color-text-muted);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+/* TABLET */
+
+@media (max-width: 999px) {
+  .services {
+    padding: 50px 0 50px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card {
+    min-height: 260px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 649px) {
+  .services {
+    padding: 40px 0 40px;
+  }
+
+  .heading {
+    margin-bottom: 42px;
+  }
+
+  .heading h2 {
+    font-size: 43px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .card {
+    min-height: 245px;
+    padding: 25px 24px 28px;
+  }
+
+  .card h3 {
+    font-size: 24px;
+  }
+}
