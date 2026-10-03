@@ -1,3 +1,9 @@
+const female =
+  "https://louiserosephotography.com/wp-content/uploads/2025/03/headshots-for-a-therapist-in-london-11.jpg";
+
+const male =
+  "https://louiserosephotography.com/wp-content/uploads/2025/03/headshots-for-a-therapist-in-london-11.jpg";
+
 export const commons = {
   seo: {
     title: "Inner Calm Counseling | A softer place to begin",
@@ -93,9 +99,6 @@ export const commons = {
     eyebrow: "Meet your therapist",
 
     title: "Licensed Professional Counselor",
-
-    image:
-      "https://louiserosephotography.com/wp-content/uploads/2025/03/headshots-for-a-therapist-in-london-11.jpg",
 
     intro:
       "I believe therapy works best when you feel respected, understood, and never rushed into being someone you're not.",
@@ -297,6 +300,7 @@ export const businesses = {
 
     therapist: {
       name: "Dr. Maya Bennett, LPC",
+      image: female,
       cta: {
         text: "Read more about Dr. Maya Bennett",
         href: "#contact",

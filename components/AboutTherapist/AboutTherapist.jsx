@@ -9,14 +9,14 @@ export default function AboutTherapist({ business, commons }) {
         <div className={styles.grid}>
           <div className={styles.photoWrap}>
             <div className={styles.photo}>
-              <img src={t.image} alt={t.name} />
+              <img src={business.therapist.image} alt={t.name} />
 
               <div className={styles.photoShade}></div>
 
               <div className={styles.caption}>
                 <span>Hi, I'm</span>
 
-                <strong>{t.name}</strong>
+                <strong>{business.therapist.name}</strong>
 
                 <small>{t.title}</small>
               </div>
