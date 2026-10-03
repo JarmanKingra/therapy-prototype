@@ -4,6 +4,9 @@ const female =
 const male =
   "https://louiserosephotography.com/wp-content/uploads/2025/03/headshots-for-a-therapist-in-london-11.jpg";
 
+const emma =
+  "https://lh3.googleusercontent.com/grass-cs/AABkmLfS1Vcb0kFNDXxr2SlJJDcQ0Pbuqtg3AaBPe4jK5jN7qnUfDZuoY97XdHGpx2UpVpX39UzFFy_MNYKcTPlNK6f5qNRrBhp42UpbSLabFHpL6lOHuLwmOqruFONOK9m1jd_d0S4Phw=w408-h612-k-no";
+
 export const commons = {
   seo: {
     title: "Inner Calm Counseling | A softer place to begin",
@@ -303,6 +306,274 @@ export const businesses = {
       image: female,
       cta: {
         text: "Read more about Dr. Maya Bennett",
+        href: "#contact",
+      },
+    },
+  },
+  "mindful-counseling-denver": {
+    slug: "mindful-counseling-denver",
+
+    brand: {
+      name: "Mindful Counseling, EMDR",
+      shortName: "Mindful Counseling",
+      tagline: "Trauma-informed therapy for thoughtful women & couples.",
+    },
+
+    contact: {
+      phone: "+1.720-515-7344",
+      email: "emma@mindfulcounselingdenver.com",
+      city: "Denver, Colorado",
+      address: "Denver, Colorado",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Emma Kobil, LPC",
+      image: emma,
+      cta: {
+        text: "Learn more about Emma Kobil",
+        href: "#contact",
+      },
+    },
+  },
+  "zoetic-counseling": {
+    slug: "zoetic-counseling",
+
+    brand: {
+      name: "Zoetic Counseling",
+      shortName: "Zoetic",
+      tagline: "Thriving relationships through personal growth.",
+    },
+
+    contact: {
+      phone: "928-853-8781",
+      email: "becky@zoeticcounseling.com",
+      city: "Denver, Colorado",
+      address: "2406 W. 32nd Ave. Suite A Denver, CO 80211",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Becky Natenberg, MA, LPC, EMDR",
+      image: "/images/Becky.png",
+      cta: {
+        text: "Learn more about Becky Natenberg",
+        href: "#contact",
+      },
+    },
+  },
+  "dr-david-shanley": {
+    slug: "dr-david-shanley",
+
+    brand: {
+      name: "David Shanley PsyD, LLC",
+      shortName: "David Shanley",
+      tagline: "Specializing in anxiety and OCD.",
+    },
+
+    contact: {
+      phone: "720-515-1637",
+      email: "Drshanley@drdavidshanley.com",
+      city: "Denver, Colorado",
+      address: "1776 S. Jackson Street, Suite 723, Denver, CO 80210",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Dr. David Shanley, PsyD",
+      image:
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLfqDzu70OsWBZPBB4GbJI_WO9lmkAJfTNQWYWA6o8BQ_K8AxLpMjkgVyJLK_swbtdedy4h6bJDxW02FbLsOjqxfdLVwQe6PMyLjW5BDDt58HE6ialtd1Ffbx7VSy8f4H9UCngw5=w408-h611-k-no",
+      cta: {
+        text: "Learn more about Dr. David Shanley",
+        href: "#contact",
+      },
+    },
+  },
+  "sit-with-ambie": {
+    slug: "sit-with-ambie",
+
+    brand: {
+      name: "Sit With Ambie Psychotherapy PLLC",
+      shortName: "Sit With Ambie",
+      tagline: "Trauma therapy for authentic belonging and self-sovereignty.",
+    },
+
+    contact: {
+      phone: "(720) 737-9634",
+      email: "amber@sitwithambie.com",
+      city: "Denver, Colorado",
+      address: "3955 E Exposition Ave Ste 320, Denver, CO 80209",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Amber Christine",
+      image:
+        "https://images.squarespace-cdn.com/content/v1/6603010c796b840577ef9127/3b8c586b-d205-4aeb-8e2c-a0d97d522f0b/tempImagejXBfbl.jpg?format=2500w",
+      cta: {
+        text: "Learn more about Amber Christine",
+        href: "#contact",
+      },
+    },
+  },
+  "unstuck-therapy": {
+    slug: "unstuck-therapy",
+
+    brand: {
+      name: "Unstuck Therapy",
+      shortName: "Unstuck",
+      tagline: "Helping you move forward with clarity and confidence.",
+    },
+
+    contact: {
+      phone: "(303) 860-2716",
+      email: "",
+      city: "Denver, Colorado",
+      address: "190 E 9th Ave #350b, Denver, CO 80203",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Dr. Linda Baker, PsyD",
+      image:
+        "https://unstucktherapy.com/wp-content/uploads/2025/04/UNSTUCK-34.webp",
+      cta: {
+        text: "Learn more about Dr. Linda Baker",
+        href: "#contact",
+      },
+    },
+  },
+  "tenet-therapy": {
+    slug: "tenet-therapy",
+
+    brand: {
+      name: "Tenet Therapy",
+      shortName: "Tenet",
+      tagline: "Therapy for relationships, identity, and connection.",
+    },
+
+    contact: {
+      phone: "832-409-4634",
+      email: "ty@tenettherapy.com",
+      city: "Houston, Texas",
+      address: "1502 Sawyer St., Suite 237, Houston, TX 77007",
+      bookingUrl: "https://tenettherapy.janeapp.com/",
+    },
+
+    therapist: {
+      name: "Ty Neely, M.S., LPC, CST, NCC",
+      image:
+        "https://d2t6o06vr3cm40.cloudfront.net/2026/06/22/21/17/01/d724c048-aaa3-43a0-8346-eac838646dab/Headshot%202025.jpg",
+      cta: {
+        text: "Learn more about Ty Neely",
+        href: "#contact",
+      },
+    },
+  },
+  "better-therapy": {
+    slug: "better-therapy",
+
+    brand: {
+      name: "Better Therapy",
+      shortName: "Better Therapy",
+      tagline: "Individual and couples therapy in Houston.",
+    },
+
+    contact: {
+      phone: "832-542-6244",
+      email: "info@bettertherapy.com",
+      city: "Houston, Texas",
+      address: "3400 Bissonnet St #270, Houston, TX 77005",
+      bookingUrl: "https://bettertherapy.com/",
+    },
+
+    therapist: {
+      name: "Dr. Rune Moelbak, PhD",
+      image:
+        "https://bettertherapy.com/wp-content/uploads/2024/01/Dr-Rune-Moelbak-2013-21.jpg",
+      cta: {
+        text: "Learn more about Dr. Rune Moelbak",
+        href: "#contact",
+      },
+    },
+  },
+  "blossom-behavioral-health": {
+    slug: "blossom-behavioral-health",
+
+    brand: {
+      name: "Blossom Behavioral Health",
+      shortName: "Blossom",
+      tagline: "Compassionate counseling for individuals and families.",
+    },
+
+    contact: {
+      phone: "832-799-8587",
+      email: "rarmstronglpc@gmail.com",
+      city: "Houston, Texas",
+      address: "Houston, Texas, United States",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Renee Armstrong, LPC-S, NCC",
+      image:
+        "https://img1.wsimg.com/isteam/ip/d1224603-0ab7-4a2e-a643-caa913214ada/d6f180aa9fe78a627cc56482959654d9/:/rs=w:400,cg:true,m",
+      cta: {
+        text: "Learn more about Renee Armstrong",
+        href: "#contact",
+      },
+    },
+  },
+  "tommie-burrell-counseling": {
+    slug: "tommie-burrell-counseling",
+
+    brand: {
+      name: "Tommie D. Burrell, LCSW Counseling PLLC",
+      shortName: "Tommie Burrell",
+      tagline: "Healing, truth, and meaning through therapy.",
+    },
+
+    contact: {
+      phone: "346-594-8632",
+      email: "tommie@tburrellcounseling.com",
+      city: "Houston, Texas",
+      address: "Houston, Texas",
+      bookingUrl: "https://www.tburrellcounseling.com/request-and-appointment",
+    },
+
+    therapist: {
+      name: "Tommie D. Burrell, LCSW",
+      image:
+        "https://static.wixstatic.com/media/b4f16a_fbad5db50fbb46649afca8e9d642e44f~mv2.jpg/v1/crop/x_205,y_0,w_1579,h_2044/fill/w_446,h_578,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/D5BF0AC1-3896-4945-A30D-B5A889694B32.jpg",
+      cta: {
+        text: "Learn more about Tommie D. Burrell",
+        href: "#contact",
+      },
+    },
+  },
+  "christy-neher-counseling": {
+    slug: "christy-neher-counseling",
+
+    brand: {
+      name: "Christy Neher Professional Counseling",
+      shortName: "Christy Neher",
+      tagline:
+        "Professional counseling, EMDR, and support for life's challenges.",
+    },
+
+    contact: {
+      phone: "214-699-7762",
+      email: "christyneher@sbcglobal.net",
+      city: "Dallas, Texas",
+      address: "10233 E. Northwest Hwy #428, Dallas, TX 75238",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Christy Neher, MA, MS, LPC-S",
+      image: "https://www.christyneherlpc.com/s/cc_images/cache_4206294600.jpg?t=1532811456",
+      cta: {
+        text: "Learn more about Christy Neher",
         href: "#contact",
       },
     },
