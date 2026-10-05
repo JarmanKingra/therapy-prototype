@@ -42,7 +42,7 @@ export const commons = {
   },
 
   hero: {
-    eyebrow: "Therapy for adults in Austin, TX",
+    eyebrow: "Therapy for adults in ",
     title: "You don't have to carry everything by yourself.",
     description:
       "A calm, supportive space to slow down, make sense of what you're carrying, and find a way forward that feels like your own.",

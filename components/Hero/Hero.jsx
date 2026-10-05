@@ -10,7 +10,7 @@ export default function Hero({ business, commons }) {
       <div className={styles.container}>
         <div className={styles.grid}>
           <div className={styles.content}>
-            <p className={styles.eyebrow}>{hero.eyebrow}</p>
+            <p className={styles.eyebrow}>{hero.eyebrow} {business.contact.city}</p>
 
             <h1>{hero.title}</h1>
 
