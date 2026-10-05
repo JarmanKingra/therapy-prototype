@@ -828,7 +828,7 @@ export const businesses = {
     contact: {
       phone: "07842 553 127",
       email: "juliacjc@pm.me",
-      city: "Otley, Leeds, West Yorkshire, UK",
+      city: "Otley, UK",
       address: "Otley, West Yorkshire, United Kingdom",
       bookingUrl: "https://www.juliacjc.com/contact",
     },
@@ -857,7 +857,7 @@ export const businesses = {
     contact: {
       phone: "07966 198025",
       email: "info@thetrustedtherapist.co.uk",
-      city: "Bingley, Bradford, West Yorkshire, UK",
+      city: "Bingley, UK",
       address:
         "Bingley Counselling Centre, Rear of 118 Main Street, Bingley, BD16 2JH",
       bookingUrl: "#contact",
@@ -945,7 +945,7 @@ export const businesses = {
     contact: {
       phone: "123456789",
       email: "locus.amoenus@example.com",
-      city: "",
+      city: "United Kingdom",
       address: "",
       bookingUrl: "#contact",
     },
@@ -1004,7 +1004,7 @@ export const businesses = {
     contact: {
       phone: "07538237147",
       email: "info@karendesouza.co.uk",
-      city: "Shoreham-by-Sea, Brighton, Horsham & London, UK",
+      city: "London, UK",
       address: "The Practice Rooms, 57 Ship Street, Brighton, BN1 1AF",
       bookingUrl: "#contact",
     },
@@ -1064,7 +1064,7 @@ export const businesses = {
     contact: {
       phone: "07399 250750",
       email: "carlysunrisehealing@gmail.com",
-      city: "Brighton, East Sussex, UK",
+      city: "Brighton",
       address: "3 Church Place, Brighton, BN2 5JN",
       bookingUrl: "#contact",
     },
