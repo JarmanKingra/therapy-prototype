@@ -571,10 +571,541 @@ export const businesses = {
 
     therapist: {
       name: "Christy Neher, MA, MS, LPC-S",
-      image: "https://www.christyneherlpc.com/s/cc_images/cache_4206294600.jpg?t=1532811456",
+      image:
+        "https://www.christyneherlpc.com/s/cc_images/cache_4206294600.jpg?t=1532811456",
       cta: {
         text: "Learn more about Christy Neher",
         href: "#contact",
+      },
+    },
+  },
+
+  // batch 2 ---
+
+  "alice-bertoldo": {
+    slug: "alice-bertoldo",
+
+    brand: {
+      name: "Alice Bertoldo Psychotherapy",
+      shortName: "Alice Bertoldo",
+      tagline:
+        "Psychotherapy supporting self-understanding, emotional wellbeing, and personal growth.",
+    },
+
+    contact: {
+      phone: "123-234-6789",
+      email: "alice-bertoldo@sbcglobal.net",
+      city: "Amsterdam, Netherlands",
+      address: "Damrak 68 N, 5th floor, 1012 ML Amsterdam",
+      bookingUrl: "https://www.alicebertoldo.com/how-to-start",
+    },
+
+    therapist: {
+      name: "Alice Bertoldo, MSc, MA",
+      title:
+        "Organisational Psychologist, Psychodrama Regisseur, Psychosomatic and Jungian Analytical Psychotherapist",
+      image:
+        "https://primary.jwwb.nl/public/w/f/b/temp-nfzlotbffhazllvtxoop/alice-14-high.jpg?enable-io=true&crop=0.9767%3A1%2Coffset-y7&width=532",
+      cta: {
+        text: "Learn more about Alice Bertoldo",
+        href: "https://www.alicebertoldo.com/about-me",
+      },
+    },
+  },
+  "international-wellbeing-psych": {
+    slug: "international-wellbeing-psych",
+
+    brand: {
+      name: "The International Wellbeing Psychologist",
+      shortName: "International Wellbeing",
+      tagline:
+        "English-speaking psychological therapy for expats and internationals in Amsterdam.",
+    },
+
+    contact: {
+      phone: "123-234-6789",
+      email: "internationalwellbeingpsych@gmail.com",
+      city: "Amsterdam, Netherlands",
+      address: "Rhijnvis Feithstraat 1, 1054 TT Amsterdam, Netherlands",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Sophie Patrick",
+      title: "Expat Psychologist & Therapist",
+      image:
+        "https://static.wixstatic.com/media/07b899_ce631d04e43f4d728a270ae87f778739~mv2.jpg/v1/crop/x_0,y_293,w_2000,h_1442/fill/w_430,h_310,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/07b899_ce631d04e43f4d728a270ae87f778739~mv2.jpg", // Add the therapist's photo URL after inspecting the site
+      cta: {
+        text: "Learn more about Sophie Patrick",
+        href: "https://www.internationalwellbeingpsych.nl/about",
+      },
+    },
+  },
+  "goldberg-recovery": {
+    slug: "goldberg-recovery",
+
+    brand: {
+      name: "Goldberg Recovery Counseling",
+      shortName: "Maya Goldberg",
+      tagline:
+        "Private, culturally attuned online therapy and counseling for individuals and couples.",
+    },
+
+    contact: {
+      phone: "123456789",
+      email: "maya@goldberg-recovery.online",
+      city: "Amsterdam, Netherlands",
+      address: "Amsterdam, The Netherlands",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Maya Goldberg, MPhil, MA",
+      title: "Psychologist",
+      image:
+        "https://static.wixstatic.com/media/e5e13d_9fca33b271d844918fa7a29bd94a8f91~mv2.jpg/v1/crop/x_297,y_349,w_1271,h_719/fill/w_195,h_110,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/4-up%20on%205-16-26%20at%2022_edited.jpg",
+      cta: {
+        text: "Learn more about Maya Goldberg",
+        href: "https://www.goldberg-recovery.online/info",
+      },
+    },
+  },
+  "telma-kremer": {
+    slug: "telma-kremer",
+
+    brand: {
+      name: "Telma Kremer Psychotherapy",
+      shortName: "Telma Kremer",
+      tagline:
+        "Individual and couples counselling, mentoring, and clinical supervision.",
+    },
+
+    contact: {
+      phone: "+31 6 2388 9833",
+      email: "drtelmakremer@gmail.com",
+      city: "Amsterdam, Netherlands",
+      address: "Tweede Oosterparkstraat 154.S, 1092 BR, Amsterdam",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Dr. Telma Kremer",
+      title: "Clinical Psychologist",
+      image:
+        "https://static.wixstatic.com/media/b6f6f7_6d588c9e0dc247028ad5fccb3bfefbc2~mv2.jpeg/v1/fill/w_600,h_600,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/b6f6f7_6d588c9e0dc247028ad5fccb3bfefbc2~mv2.jpeg",
+      cta: {
+        text: "Learn more about Telma Kremer",
+        href: "https://www.telmakremer.com/about-me",
+      },
+    },
+  },
+  "within-and-beyond": {
+    slug: "within-and-beyond",
+
+    brand: {
+      name: "Within & Beyond",
+      shortName: "Within & Beyond",
+      tagline:
+        "Integrative therapies and coaching for emotional wellbeing, self-discovery, and personal growth.",
+    },
+
+    contact: {
+      phone: "+31 6 86 05 29 77",
+      email: "contact@withinandbeyond.nl",
+      city: "Amsterdam, Netherlands",
+      address: "Amsterdam, The Netherlands",
+      bookingUrl: "https://www.withinandbeyond.amsterdam/",
+    },
+
+    therapist: {
+      name: "Dr. Fabiana da Silva Alves",
+      title: "Psychologist & Therapeutic Coach",
+      image:
+        "https://static.wixstatic.com/media/17901a_239dcf1054094e9fa2fe2c449ad0d249~mv2.jpg/v1/fill/w_496,h_556,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/AMS%20Fab.jpg", // Add the direct profile image URL
+      cta: {
+        text: "Learn more about Fabiana",
+        href: "https://www.withinandbeyond.amsterdam/",
+      },
+    },
+  },
+  "elaine-macha-counseling": {
+    slug: "elaine-macha-counseling",
+
+    brand: {
+      name: "Elaine Macha Counselling",
+      shortName: "Elaine Macha",
+      tagline:
+        "English-speaking counselling and psychotherapy for adults, young people, and expats.",
+    },
+
+    contact: {
+      phone: "+31 6 27181979",
+      email: "coelaine18@gmail.com",
+      city: "Amsterdam, Netherlands",
+      address: "Oudezijds Voorburgwal 91, Amsterdam",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Elaine Macha",
+      title: "Psychosocial Therapist & Counsellor",
+      image:
+        "https://static.wixstatic.com/media/75477f_7bed128ccab548c9811efadb6daff0e5~mv2.jpg/v1/fill/w_161,h_227,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ELAINE%20WEB%20READY_1_edited.jpg", // Add the direct therapist image URL
+      cta: {
+        text: "Learn more about Elaine Macha",
+        href: "https://www.elainemachacounseling.nl/more-about-me",
+      },
+    },
+  },
+  "amal-wartalska-counselling": {
+    slug: "amal-wartalska-counselling",
+
+    brand: {
+      name: "Amal Wartalska Counselling",
+      shortName: "Amal Wartalska",
+      tagline:
+        "Integrative counselling, psychotherapy, and EMDR support for trauma and life's challenges.",
+    },
+
+    contact: {
+      phone: "07811059993",
+      email: "amal.wartalska@example.com",
+      city: "Bristol, UK",
+      address: "Bristol, BS16, United Kingdom",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Amal Wartalska, MBACP (Accred)",
+      title: "Integrative Counsellor, Psychotherapist & EMDR Practitioner",
+      image:
+        "https://www.amalwartalskacounselling.com/uploads/4/0/7/5/40757593/dk0a9724_1_orig.jpg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Amal Wartalska",
+        href: "https://www.amalwartalskacounselling.com/about-me.html",
+      },
+    },
+  },
+  "littlemoor-therapy-practice": {
+    slug: "littlemoor-therapy-practice",
+
+    brand: {
+      name: "Littlemoor Therapy Practice",
+      shortName: "Littlemoor Therapy",
+      tagline:
+        "Confidential cognitive behavioural therapy to support better mental health and wellbeing.",
+    },
+
+    contact: {
+      phone: "07801 261568",
+      email: "rebecca@littlemoortherapypractice.co.uk",
+      city: "Queensbury, Bradford, UK",
+      address: "Prospect House, Queensbury, Bradford, BD13 1AD",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Rebecca",
+      title: "Cognitive Behavioural Therapist (CBT)",
+      image:
+        "https://static.wixstatic.com/media/24f70f_d2e916c4604940d6a01152a6aec30014~mv2.jpg/v1/fill/w_953,h_720,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/24f70f_d2e916c4604940d6a01152a6aec30014~mv2.jpg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Rebecca",
+        href: "https://www.littlemoortherapypractice.co.uk/",
+      },
+    },
+  },
+  "charlie-j-counselling": {
+    slug: "charlie-j-counselling",
+
+    brand: {
+      name: "Charlie J Counselling & Outdoor Therapy",
+      shortName: "Julia Tiplady",
+      tagline:
+        "Compassionate counselling, trauma therapy, EMDR, and outdoor therapy to support healing and personal growth.",
+    },
+
+    contact: {
+      phone: "07842 553 127",
+      email: "juliacjc@pm.me",
+      city: "Otley, Leeds, West Yorkshire, UK",
+      address: "Otley, West Yorkshire, United Kingdom",
+      bookingUrl: "https://www.juliacjc.com/contact",
+    },
+
+    therapist: {
+      name: "Julia Tiplady",
+      title: "Founder & Counsellor",
+      image:
+        "https://static.wixstatic.com/media/f3341c_bd3aa4167c4042fb8174bbc258e8717ef000.jpg/v1/fill/w_240,h_240,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/f3341c_bd3aa4167c4042fb8174bbc258e8717ef000.jpg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Julia Tiplady",
+        href: "https://www.juliacjc.com/about",
+      },
+    },
+  },
+  "the-trusted-therapist": {
+    slug: "the-trusted-therapist",
+
+    brand: {
+      name: "The Trusted Therapist",
+      shortName: "The Trusted Therapist",
+      tagline:
+        "Compassionate, person-centred counselling for adults, children, and young people.",
+    },
+
+    contact: {
+      phone: "07966 198025",
+      email: "info@thetrustedtherapist.co.uk",
+      city: "Bingley, Bradford, West Yorkshire, UK",
+      address:
+        "Bingley Counselling Centre, Rear of 118 Main Street, Bingley, BD16 2JH",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Brian Padden, MA",
+      title: "Person-Centred Counsellor",
+      image:
+        "https://static.wixstatic.com/media/1a5dcc_d102077f76d442599801a85e0d85880d~mv2.jpg/v1/fill/w_162,h_187,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Brian%20Padden.jpg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Brian Padden",
+        href: "https://www.thetrustedtherapist.co.uk/",
+      },
+    },
+  },
+  "marisa-walker-finch-counselling": {
+    slug: "marisa-walker-finch-counselling",
+
+    brand: {
+      name: "Marisa Walker-Finch Counselling",
+      shortName: "Marisa Walker-Finch",
+      tagline:
+        "Personalised counselling, EMDR therapy, and support to help you move forward.",
+    },
+
+    contact: {
+      phone: "07538 798025",
+      email: "marisa@smilesintandem.com",
+      city: "Huddersfield, West Yorkshire, UK",
+      address: "Smiles in Tandem, 626 Wakefield Road, Huddersfield, HD5 8PZ",
+      bookingUrl: "https://www.walker-finchcounselling.co.uk/contact",
+    },
+
+    therapist: {
+      name: "Marisa Walker-Finch",
+      title: "Senior Accredited Counsellor & EMDR Therapist",
+      image:
+        "https://static.wixstatic.com/media/bdc287_1bbd30afcbea4db2b816baf9cc302b20~mv2.jpg/v1/crop/x_396,y_483,w_1663,h_2496/fill/w_539,h_809,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/3C3A6407_(2)HR.jpg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Marisa",
+        href: "https://www.walker-finchcounselling.co.uk/about",
+      },
+    },
+  },
+  "jen-miles-therapy": {
+    slug: "jen-miles-therapy",
+
+    brand: {
+      name: "Jen Miles Therapy",
+      shortName: "Jen Miles",
+      tagline:
+        "Person-centred counselling to help you navigate life's challenges with greater confidence and self-understanding.",
+    },
+
+    contact: {
+      phone: "123456789",
+      email: "jmilestherapy@gmail.com",
+      city: "United Kingdom",
+      address: "",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Jen Miles",
+      title: "NCPS Accredited Counsellor",
+      image:
+        "https://static.wixstatic.com/media/c8c9d0_63bba8db195440c8a4492675be8767b7~mv2.avif/v1/fill/w_672,h_508,al_c,q_80,enc_avif,quality_auto/c8c9d0_63bba8db195440c8a4492675be8767b7~mv2.avif",
+      cta: {
+        text: "Learn more about Jen Miles",
+        href: "https://www.jenmilestherapy.co.uk/",
+      },
+    },
+  },
+  "locus-amoenus-therapies": {
+    slug: "locus-amoenus-therapies",
+
+    brand: {
+      name: "Locus Amoenus Therapies",
+      shortName: "Locus Amoenus",
+      tagline:
+        "A supportive space for personal growth, emotional wellbeing, and healing.",
+    },
+
+    contact: {
+      phone: "123456789",
+      email: "locus.amoenus@example.com",
+      city: "",
+      address: "",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Locus Amoenus Therapies",
+      title: "Therapist",
+      image:
+        "https://static.wixstatic.com/media/debe79_33f02b3c49364786a30e4b13b7607c2e~mv2.jpg/v1/fill/w_388,h_512,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/debe79_33f02b3c49364786a30e4b13b7607c2e~mv2.jpg",
+      cta: {
+        text: "Learn more about the therapist",
+        href: "https://www.locusamoenustherapies.com/",
+      },
+    },
+  },
+  "holistic-transformative-therapy": {
+    slug: "holistic-transformative-therapy",
+
+    brand: {
+      name: "Holistic Transformative Therapy",
+      shortName: "Holistic Transformative Therapy",
+      tagline:
+        "Trauma-informed psychotherapy and hypnotherapy for emotional healing, self-worth, and healthier relationships.",
+    },
+
+    contact: {
+      phone: "07849 580021",
+      email: "hello@holistictransformativetherapy.com",
+      city: "Leeds, West Yorkshire, UK",
+      address: "31 Park Square West, Leeds, LS1 2PF",
+      bookingUrl:
+        "https://www.holistictransformativetherapy.com/service-page/free-clarity-call-15-min",
+    },
+
+    therapist: {
+      name: "Dorota",
+      title: "Integrative Psychotherapist & Clinical Hypnotherapist",
+      image:
+        "https://static.wixstatic.com/media/9ad50f_d5848a4ee44e410c9b3f7fa79fe1b809~mv2.png/v1/crop/x_0,y_111,w_818,h_1157/fill/w_579,h_821,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Dorota%20HTT2_edited_edited_edited.png", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Dorota",
+        href: "https://www.holistictransformativetherapy.com/about-me",
+      },
+    },
+  },
+  "karen-de-souza": {
+    slug: "karen-de-souza",
+
+    brand: {
+      name: "Karen De Souza Somatic Therapy",
+      shortName: "Karen De Souza",
+      tagline:
+        "Somatic therapy integrating breath, body, voice, and connection to support healing and self-discovery.",
+    },
+
+    contact: {
+      phone: "07538237147",
+      email: "info@karendesouza.co.uk",
+      city: "Shoreham-by-Sea, Brighton, Horsham & London, UK",
+      address: "The Practice Rooms, 57 Ship Street, Brighton, BN1 1AF",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Karen De Souza",
+      title:
+        "Somatic Therapist, Social Worker & Compassionate Inquiry Practitioner",
+      image:
+        "https://static.wixstatic.com/media/d79f9f_25fe50f3e7ef42f9956b841da055cd45~mv2.jpg/v1/fill/w_400,h_600,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/d79f9f_25fe50f3e7ef42f9956b841da055cd45~mv2.jpg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Karen De Souza",
+        href: "https://www.karendesouza.co.uk/about-me",
+      },
+    },
+  },
+  "mindbody-therapy-service": {
+    slug: "mindbody-therapy-service",
+
+    brand: {
+      name: "MindBody Therapy Service",
+      shortName: "MindBody Therapy",
+      tagline:
+        "Evidence-based therapy supporting emotional wellbeing, trauma recovery, and the connection between mind and body.",
+    },
+
+    contact: {
+      phone: "07400050868",
+      email: "info@mindbodytherapyservice.com",
+      city: "Brighton & Hove, UK",
+      address: "Suite 15, Curtis House, Third Avenue, Hove, BN3 2PD",
+      bookingUrl: "https://www.mindbodytherapyservice.com/",
+    },
+
+    therapist: {
+      name: "Sian Lamey",
+      title:
+        "Clinical Director, BABCP Accredited CBT Therapist & Occupational Therapist",
+      image:
+        "https://static.wixstatic.com/media/8a2ae7_9d1152bd23e64af1a81ca556b22caae5~mv2.jpg/v1/fill/w_575,h_1001,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8a2ae7_9d1152bd23e64af1a81ca556b22caae5~mv2.jpg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Sian Lamey",
+        href: "https://www.mindbodytherapyservice.com/sian-lamey-emdr-for-ptsd-and-trauma-cbt-for-anxiety-in-brighton-and-hove",
+      },
+    },
+  },
+  "sunrise-healing": {
+    slug: "sunrise-healing",
+
+    brand: {
+      name: "Sunrise Healing",
+      shortName: "Sunrise Healing",
+      tagline:
+        "IFS psychotherapy, Reiki, and holistic support for emotional wellbeing and personal growth.",
+    },
+
+    contact: {
+      phone: "07399 250750",
+      email: "carlysunrisehealing@gmail.com",
+      city: "Brighton, East Sussex, UK",
+      address: "3 Church Place, Brighton, BN2 5JN",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Carly Steadman",
+      title: "Psychotherapist & Reiki Practitioner",
+      image:
+        "https://static.wixstatic.com/media/7a3b97_a78add811fe648ce8e82185f706de366~mv2.jpg/v1/crop/x_0,y_45,w_2478,h_3285/fill/w_480,h_676,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Headshot%20(2)_JPG.jpg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Carly Steadman",
+        href: "https://www.sunrisehealing.co.uk/about-me",
+      },
+    },
+  },
+  "sandra-wilson-clinical-hypnotherapy": {
+    slug: "sandra-wilson-clinical-hypnotherapy",
+
+    brand: {
+      name: "Sandra Wilson Clinical Hypnotherapy",
+      shortName: "Sandra Wilson",
+      tagline:
+        "Clinical hypnotherapy and psychotherapy supporting women with anxiety, trauma, confidence, and life's challenges.",
+    },
+
+    contact: {
+      phone: "07734328834",
+      email: "sewhypnotherapy@gmail.com",
+      city: "Bristol, UK",
+      address: "Bristol, United Kingdom",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Sandra Wilson, BSc (Hons), HPD, DSFH",
+      title: "Clinical Hypnotherapist & Psychotherapist",
+      image:
+        "https://static.wixstatic.com/media/efa10c_36f19b3e2c6f46e1a84ca3be3a99c2c7~mv2.jpg/v1/fill/w_915,h_634,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/efa10c_36f19b3e2c6f46e1a84ca3be3a99c2c7~mv2.jpg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Sandra Wilson",
+        href: "https://www.sandrawilsonclinicalhypnotherapy.org/about-me",
       },
     },
   },
