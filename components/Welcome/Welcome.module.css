@@ -1,164 +1,313 @@
 .welcome {
-  padding: 70px 0 70px;
+  position: relative;
+  isolation: isolate;
   width: 100%;
+  min-height: 610px;
+  padding: clamp(76px, 8vw, 112px) 24px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  background: var(--color-background);
   border-bottom: 2px solid var(--color-primary);
+
+  /* For Background */
+
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(251, 250, 247, 0) 0%,
+      rgba(251, 250, 247, 0.03) 55%,
+      rgba(237, 243, 239, 0.04) 100%
+    ),
+    url("/images/welcomeBG.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.welcome::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+
+  width: min(1100px, 95%);
+  height: 88%;
+  top: 6%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background: radial-gradient(
+    ellipse at center,
+    rgba(251, 250, 247, 0.72) 0%,
+    rgba(251, 250, 247, 0.48) 48%,
+    rgba(251, 250, 247, 0) 78%
+  );
 }
 
 .container {
-  max-width: 850px;
+  width: min(100%, 1000px);
   margin: 0 auto;
   text-align: center;
+
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  position: relative;
+  z-index: 1;
 }
-
-.grid {
-  display: grid;
-
-  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1fr);
-
-  gap: clamp(60px, 9vw, 140px);
-
-  align-items: start;
-}
-
-/* LEFT */
 
 .intro {
-  max-width: 900px;
+  max-width: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .eyebrow {
-  font-size: 1rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.18em;
-  margin-bottom: 1.25rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 14px;
+
+  margin: 0 0 32px;
+
   color: var(--color-accent);
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: 1.5;
 }
 
-/* Optional line before eyebrow text to match Image 2 */
-.eyebrow::before {
+.eyebrow::before,
+.eyebrow::after {
   content: "";
-  display: inline-block;
-  width: 24px;
+  display: block;
+  width: 28px;
   height: 1px;
-  background-color: currentColor;
+  flex-shrink: 0;
+  background: currentColor;
 }
 
 .intro h2 {
-  font-family: "Georgia", "Garamond", "Times New Roman", serif;
-  font-size: 2.5rem;
+  max-width: 1000px;
+  margin: 0 0 32px;
+
+  color: var(--color-primary-dark);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(38px, 4.1vw, 60px);
   font-weight: 500;
-  line-height: 1.25;
-  letter-spacing: -0.01em;
-  margin-bottom: 2rem;
+  line-height: 1.16;
+  letter-spacing: -0.035em;
+
+  text-wrap: balance;
+  text-shadow: 0 1px 12px rgba(251, 250, 247, 0.3);
 }
 
 .copy {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
   align-items: center;
+  gap: 0;
 }
 
-.copy p {
-  font-family: "Georgia", "Garamond", "Times New Roman", serif;
-  font-size: 1.5rem;
-  line-height: 1.55;
+.paragraph {
+  max-width: 790px;
+  margin: 0;
+
+  color: var(--color-text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(20px, 2vw, 29px);
   font-weight: 400;
-  max-width: 780px;
-  margin: 0 auto;
+  line-height: 1.65;
+
+  text-wrap: pretty;
+  text-shadow: 0 1px 10px rgba(251, 250, 247, 0.5);
 }
 
-/* --- FOOTER NOTE / AUTHOR --- */
 .note {
-  margin-top: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
-  font-size: 0.85rem;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
+  gap: 18px;
+
+  margin-top: 48px;
+  max-width: 100%;
 }
 
 .note span {
-  display: inline-block;
-  width: 12px;
+  display: block;
+  width: 28px;
   height: 1px;
-  background-color: currentColor;
+  flex: 0 0 28px;
+  background: var(--color-accent);
 }
 
 .note p {
-  font-family: inherit;
-  font-size: 0.85rem;
-  line-height: 1;
+  margin: 0;
+
+  color: var(--color-primary-dark);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.8;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
 }
 
-/*  */
-
-/* .note > span {
-  width: 7px;
-  height: 7px;
-
-  flex: 0 0 7px;
-
-  margin-top: 7px;
-
-  border-radius: 50%;
-
-  background: var(--color-accent);
-} */
-
-/* TABLET */
-
-@media (max-width: 799px) {
+/* Tablet */
+@media (max-width: 800px) {
   .welcome {
-    padding: 40px 0 40px;
+    min-height: 560px;
+    padding: 76px 32px;
   }
 
-  .grid {
-    grid-template-columns: 1fr;
-    gap: 45px;
+  .background {
+    background-position: center;
+  }
+
+  .welcome::before {
+    background: linear-gradient(
+      180deg,
+      rgba(251, 250, 247, 0.9) 0%,
+      rgba(251, 250, 247, 0.8) 55%,
+      rgba(237, 243, 239, 0.82) 100%
+    );
   }
 
   .intro h2 {
+    max-width: 700px;
+    font-size: clamp(36px, 5.5vw, 48px);
+  }
+
+  .paragraph {
     max-width: 650px;
-  }
-
-  .copy {
-    max-width: 680px;
-  }
-}
-
-/* MOBILE */
-
-@media (max-width: 520px) {
-  .welcome {
-    padding: 40px 10px 40px;
-  }
-
-  .intro h2 {
-    font-size: 32px;
-  }
-
-  .copy > p {
     font-size: 23px;
-    /* line-height: 1.25; */
+    line-height: 1.65;
   }
 
   .note {
-    margin-top: 35px;
+    margin-top: 38px;
+    gap: 12px;
+  }
+
+  .note p {
+    font-size: 11px;
+    letter-spacing: 0.13em;
+  }
+}
+
+/* Mobile */
+@media (max-width: 520px) {
+  .welcome {
+    min-height: auto;
+    padding: 66px 22px 60px;
+  }
+
+  .background {
+    background-position: 44% center;
+  }
+
+  .welcome::before {
+    background: linear-gradient(
+      180deg,
+      rgba(251, 250, 247, 0.92) 0%,
+      rgba(251, 250, 247, 0.86) 48%,
+      rgba(237, 243, 239, 0.88) 100%
+    );
+  }
+
+  .welcome::after {
+    width: 120%;
+    height: 100%;
+    top: 0;
+
+    background: radial-gradient(
+      ellipse at center,
+      rgba(251, 250, 247, 0.62) 0%,
+      rgba(251, 250, 247, 0.35) 58%,
+      rgba(251, 250, 247, 0) 85%
+    );
+  }
+
+  .eyebrow {
+    gap: 9px;
+    margin-bottom: 24px;
+    font-size: 11px;
+    letter-spacing: 0.16em;
+  }
+
+  .eyebrow::before,
+  .eyebrow::after {
+    width: 17px;
+  }
+
+  .intro h2 {
+    margin-bottom: 24px;
+    font-size: clamp(32px, 8.5vw, 40px);
+    line-height: 1.2;
+    letter-spacing: -0.035em;
+  }
+
+  .paragraph {
+    font-size: 19px;
+    line-height: 1.7;
+  }
+
+  .note {
+    margin-top: 32px;
+    gap: 10px;
+  }
+
+  .note span {
+    width: 16px;
+    flex-basis: 16px;
+  }
+
+  .note p {
+    font-size: 9px;
+    line-height: 1.9;
+    letter-spacing: 0.1em;
+  }
+}
+
+/* Small phones */
+@media (max-width: 360px) {
+  .welcome {
+    padding: 54px 17px 48px;
+  }
+
+  .intro h2 {
+    font-size: 30px;
+  }
+
+  .paragraph {
+    font-size: 18px;
+  }
+
+  .note {
+    gap: 7px;
+  }
+
+  .note p {
+    font-size: 8px;
+    letter-spacing: 0.07em;
+  }
+
+  .note span {
+    width: 12px;
+    flex-basis: 12px;
+  }
+}
+
+/* Respect reduced-motion preferences; the background is static */
+@media (prefers-reduced-motion: reduce) {
+  .background {
+    transform: none;
   }
 }

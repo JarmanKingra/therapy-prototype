@@ -109,7 +109,7 @@ export const commons = {
     paragraphs: [
       "I know how painful it can feel when relationships become distant, anxiety takes over, or life feels emotionally overwhelming.",
 
-      "My work is deeply rooted in helping people feel understood, emotionally safe, and no longer alone in what they're carrying.",
+      // "My work is deeply rooted in helping people feel understood, emotionally safe, and no longer alone in what they're carrying.",
 
       "This isn't just professional for me — it's something I care deeply about.",
     ],
