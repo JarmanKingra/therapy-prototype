@@ -1109,4 +1109,329 @@ export const businesses = {
       },
     },
   },
+
+  // Batch 3
+
+  "crissy-scott": {
+    slug: "crissy-scott",
+
+    brand: {
+      name: "Dr. Crystyn Scott",
+      shortName: "Crissy Scott",
+      tagline:
+        "Counselling psychology, CBT, and EMDR support for emotional wellbeing and personal growth.",
+    },
+
+    contact: {
+      phone: "07539280341",
+      email: "crissyscott@protonmail.com",
+      city: "Bristol",
+      address:
+        "The Arches Therapy Rooms, 198 Cheltenham Road, Montpellier, Bristol BS6 5QZ",
+      bookingUrl: "https://afterlight.janeapp.co.uk",
+    },
+
+    therapist: {
+      name: "Dr. Crystyn Scott",
+      title: "Counselling Psychologist & CBT Psychotherapist",
+      image: "https://crissyscott.co.uk/images/3.jpg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Dr. Crystyn Scott",
+        href: "https://crissyscott.co.uk/dr-crissy-scott-psychologist-bristol",
+      },
+    },
+  },
+  "soft-focus-therapy": {
+    slug: "soft-focus-therapy",
+
+    brand: {
+      name: "Soft Focus Therapy",
+      shortName: "Soft Focus",
+      tagline:
+        "Trauma-informed psychotherapy and EMDR support to help you feel safer, calmer, and more at home in yourself.",
+    },
+
+    contact: {
+      phone: "+44 744 879 00 24",
+      email: "Sebastien@gmail.com", // No email address publicly listed
+      city: "Bristol",
+      address: "Bristol, UK",
+      bookingUrl:
+        "https://www.softfocustherapy.com/service-page/free-15-min-intro-call",
+    },
+
+    therapist: {
+      name: "Sebastien Black",
+      title: "NCPS Accredited Psychotherapist & EMDR Specialist",
+      image:
+        "https://static.wixstatic.com/media/345fcc_99d5ccd65d6c4a939f1ce9a6a2ee07e0~mv2.jpg/v1/fill/w_953,h_768,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/345fcc_99d5ccd65d6c4a939f1ce9a6a2ee07e0~mv2.jpg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Sebastien Black",
+        href: "https://www.softfocustherapy.com/",
+      },
+    },
+  },
+  "path-to-inner-wellness": {
+    slug: "path-to-inner-wellness",
+
+    brand: {
+      name: "Path to Inner Wellness",
+      shortName: "Inner Wellness",
+      tagline:
+        "Support for anxiety, OCD, and emotional wellbeing to help you move towards a calmer, more confident life.",
+    },
+
+    contact: {
+      phone: "07301087963",
+      email: "chrismason@gmail.com", // Placeholder; unverified
+      city: "Bristol",
+      address: "Bristol, United Kingdom",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Chris Mason",
+      title: "Therapist (MCThA)",
+      image:
+        "https://static.wixstatic.com/media/7db286_d4db2fadabea4755857c52e384369e1d~mv2.jpg/v1/fill/w_273,h_285,al_c,q_80,enc_avif,quality_auto/Homepage%20profile.jpg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Chris Mason",
+        href: "https://www.pathtoinnerwellness.com/",
+      },
+    },
+  },
+  "key-to-you-counselling": {
+    slug: "key-to-you-counselling",
+
+    brand: {
+      name: "Key to You Counselling",
+      shortName: "Key to You",
+      tagline:
+        "Warm, integrative counselling to help you navigate anxiety, build confidence, set healthy boundaries, and reconnect with yourself.",
+    },
+
+    contact: {
+      phone: "07564186271",
+      email: "keytoyoucounselling@gmail.com",
+      city: "Bristol",
+      address: "Stoke Gifford, North Bristol, United Kingdom",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Katrina Young",
+      title: "Integrative Counsellor",
+      image:
+        "https://static.wixstatic.com/media/e319a2_c343f2baec8f42be8accf159ebd2b185~mv2.jpg/v1/crop/x_0,y_171,w_4896,h_5707/fill/w_388,h_439,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG20230215175854.jpg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Katrina Young",
+        href: "https://www.keytoyoucounselling.co.uk/",
+      },
+    },
+  },
+  "renata-psychotherapy": {
+    slug: "renata-psychotherapy",
+
+    brand: {
+      name: "Renata Psychotherapy",
+      shortName: "Renata Psychotherapy",
+      tagline:
+        "CBT, EMDR, and trauma-informed psychotherapy to support adults with anxiety, depression, and trauma.",
+    },
+
+    contact: {
+      phone: "1234567890", // Placeholder; no public phone confirmed
+      email: "renata.konigsman@gmail.com",
+      city: "Bristol",
+      address:
+        "Bristol Talking Therapy Rooms, 3 Redcliffe Parade East, Redcliffe, Bristol BS1 6SW, United Kingdom",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Renata Königsman",
+      title: "Psychotherapist, CBT Therapist & EMDR Therapist",
+      image:
+        "https://static.wixstatic.com/media/6e6ad3_6839b8c2b46b40dea7084a99f8f54a6d~mv2.jpeg/v1/fill/w_394,h_601,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Renata%20Profile%20Photo.jpeg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Renata Königsman",
+        href: "https://www.renata-psychotherapy.com/about",
+      },
+    },
+  },
+  "harmony-mind-care": {
+    slug: "harmony-mind-care",
+
+    brand: {
+      name: "Harmony Mind Care",
+      shortName: "Harmony Mind Care",
+      tagline:
+        "Psychotherapy, music therapy, and holistic support for emotional wellbeing, personal growth, and mental health.",
+    },
+
+    contact: {
+      phone: "07548344019",
+      email: "stef.gallini@gmail.com",
+      city: "Bristol",
+      address: "Muller Avenue, Bristol, BS7 9HX, United Kingdom",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Stephen Gallini",
+      title: "Psychotherapist & HCPC-Registered Music Therapist",
+      image:
+        "https://static.wixstatic.com/media/8d719b_2223b571ad63433698f194967b696df3~mv2.jpeg/v1/crop/x_0,y_34,w_761,h_956/fill/w_265,h_333,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/WhatsApp%20Image%202023-12-20%20at%2001_04_37.jpeg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Stephen Gallini",
+        href: "https://www.harmonymindcare.com/",
+      },
+    },
+  },
+  "freedom-with-therapy": {
+    slug: "freedom-with-therapy",
+
+    brand: {
+      name: "Freedom With Therapy",
+      shortName: "Freedom With Therapy",
+      tagline:
+        "Compassionate counselling, psychotherapy, and hypnotherapy to help you navigate anxiety, burnout, past experiences, and life transitions.",
+    },
+
+    contact: {
+      phone: "1234567890", // Placeholder; verify before publishing
+      email: "kirstenm.therapy@gmail.com",
+      city: "Bristol",
+      address: "Bristol BS7, United Kingdom",
+      bookingUrl: "https://www.freedomwiththerapy.com/book-a-consultation",
+    },
+
+    therapist: {
+      name: "Kirsten Malcolm",
+      title: "Counsellor, Psychotherapist & Clinical Hypnotherapist",
+      image:
+        "https://static.wixstatic.com/media/710353_47770dc66b8b4a0e8fa18fb1ea01e91c~mv2.jpg/v1/fill/w_720,h_584,al_c,q_85,enc_avif,quality_auto/710353_47770dc66b8b4a0e8fa18fb1ea01e91c~mv2.jpg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Kirsten Malcolm",
+        href: "https://www.freedomwiththerapy.com/",
+      },
+    },
+  },
+  "stephanie-lawrence-psychotherapy": {
+    slug: "stephanie-lawrence-psychotherapy",
+
+    brand: {
+      name: "Stephanie Lawrence Psychotherapy",
+      shortName: "Stephanie Lawrence",
+      tagline:
+        "Integrative psychotherapy offering a safe, supportive space to explore emotional difficulties, relationships, and life challenges.",
+    },
+
+    contact: {
+      phone: "07833 621 480",
+      email: "stephanie.lawrence@mac.com",
+      city: "Bristol",
+      address:
+        "Saville Court, 11 Saville Place, Clifton, Bristol BS8 4EJ, United Kingdom",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Stephanie Lawrence",
+      title: "UKCP-Registered Integrative Psychotherapist",
+      image: female, // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Stephanie Lawrence",
+        href: "http://www.stephanielawrencepsychotherapy.co.uk/about.html",
+      },
+    },
+  },
+  "soul-trainer": {
+    slug: "soul-trainer",
+
+    brand: {
+      name: "Soul Trainer",
+      shortName: "Soul Therapy",
+      tagline:
+        "Holistic psychotherapy, hypnotherapy, and eating disorder support for children, young people, and adults.",
+    },
+
+    contact: {
+      phone: "+447813167676",
+      email: "soultherapybms@gmail.com",
+      city: "Bishop Sutton, Bristol",
+      address: "Bishop Sutton, near Bristol, United Kingdom",
+      bookingUrl: "https://www.soul-trainer.co.uk/contact",
+    },
+
+    therapist: {
+      name: "Jackie Harding",
+      title:
+        "Psychotherapist, Clinical Hypnotherapist & Eating Disorder Specialist",
+      image:
+        "https://static.wixstatic.com/media/10fcde_de83562ef5e045bba6ecc350b105ccd2~mv2.jpg/v1/crop/x_796,y_0,w_1407,h_2000/fill/w_323,h_459,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/CR6A8226_edited.jpg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Jackie Harding",
+        href: "https://www.soul-trainer.co.uk/about",
+      },
+    },
+  },
+  "liber8-your-life": {
+    slug: "liber8-your-life",
+
+    brand: {
+      name: "Liber8yourlife",
+      shortName: "Liber8yourlife",
+      tagline:
+        "Hypnotherapy and holistic wellbeing support to help you manage stress, build confidence, and make positive changes in your life.",
+    },
+
+    contact: {
+      phone: "07968 724322",
+      email: "farnooshkm@liber8yourlife.com",
+      city: "Cambridge",
+      address: "Cambridge, United Kingdom",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Farnoosh Kovily",
+      title: "Clinical Hypnotherapist & Holistic Therapist",
+      image:
+        "https://static.wixstatic.com/media/90a441_c6635ae3ab54494b875d0cc5ad355293~mv2.jpg/v1/fill/w_249,h_228,al_c,lg_1,q_80,enc_avif,quality_auto/90a441_c6635ae3ab54494b875d0cc5ad355293~mv2.jpg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Farnoosh Kovily",
+        href: "https://www.liber8yourlife.com/",
+      },
+    },
+  },
+  "reiki-healing-space": {
+    slug: "reiki-healing-space",
+
+    brand: {
+      name: "Reiki Healing Space",
+      shortName: "Reiki Healing Space",
+      tagline:
+        "Gentle Reiki healing to help you relax, release stress, and find a calmer, more balanced sense of wellbeing.",
+    },
+
+    contact: {
+      phone: "07830 315992",
+      email: "info@reikihealingspace.co.uk",
+      city: "Cambridge",
+      address: "Trumpington, Cambridge, United Kingdom",
+      bookingUrl: "https://www.reikihealingspace.co.uk/",
+    },
+
+    therapist: {
+      name: "June",
+      title: "Qualified Reiki Master",
+      image:
+        "https://static.wixstatic.com/media/96283d_9766d028f36149c1867e7cef7f25cd73~mv2.jpg/v1/fill/w_277,h_373,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Reiki%20Healing%20Space%20-%20JS%20Photo.jpg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about June",
+        href: "https://www.reikihealingspace.co.uk/about",
+      },
+    },
+  },
 };
