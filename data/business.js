@@ -1572,7 +1572,7 @@ export const businesses = {
   therapist: {
     name: "Audrey Sandilands",
     title: "Qualified Person-Centred Counsellor",
-    image: "https://static.wixstatic.com/media/a498ed_f880f4bdd82e49459f22533027391b96~mv2.jpg/v1/fill/w_302,h_302,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20250909_195155_edited.jpg", // Add the direct therapist photo URL
+    image: "https://www.aspire-counselling.com/uploads/8/4/3/2/84326096/published/audrey-linkedin-image.png?1491341807", // Add the direct therapist photo URL
     cta: {
       text: "Learn more about Audrey Sandilands",
       href: "https://www.aspire-counselling.com/",
@@ -1601,7 +1601,7 @@ export const businesses = {
   therapist: {
     name: "Naomi Bateren",
     title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "", // Add the direct therapist photo URL
+    image: "https://static.wixstatic.com/media/a498ed_f880f4bdd82e49459f22533027391b96~mv2.jpg/v1/fill/w_302,h_302,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20250909_195155_edited.jpg", // Add the direct therapist photo URL
     cta: {
       text: "Learn more about Naomi Bateren",
       href: "https://www.naomibaterentherapy.com/about-me",
