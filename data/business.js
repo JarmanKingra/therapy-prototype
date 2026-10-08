@@ -1488,7 +1488,7 @@ export const businesses = {
     name: "Ella",
     title: "Psychotherapist, Counsellor & Hypnotherapist",
     image:
-      "https://static.wixstatic.com/media/64990e_22a47a5db23043bd95210714e13d2a84~mv2.jpg/v1/fill/w_400,h_400,al_c,q_80,usm_0.66_1.00,quality_auto/IMG_20190709_210835_188.jpg",
+      "https://static.wixstatic.com/media/64990e_22a47a5db23043bd95210714e13d2a84~mv2.jpg/v1/fill/w_400,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_20190709_210835_188.jpg",
     cta: {
       text: "Learn more about Ella",
       href: "https://www.projectyoucounselling.co.uk/about-me",
