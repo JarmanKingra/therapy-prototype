@@ -5,11 +5,8 @@ import styles from "./Welcome.module.css";
 export default function Welcome({ commons }) {
   const section = commons.welcome;
   return (
-    <section
-      className={styles.welcome} 
-      id="welcome"
-    >
-      {" "}
+    <section className={styles.welcome} id="welcome">
+      <div className={styles.backgroundOverlay} aria-hidden="true" />{" "}
       <div className={styles.container}>
         {" "}
         <div className={styles.intro}>

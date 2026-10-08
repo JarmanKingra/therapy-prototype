@@ -5,28 +5,19 @@ export default function Services({ commons }) {
 
   return (
     <section className={styles.services} id="services">
+      <div className={styles.backgroundOverlay} aria-hidden="true" />{" "}
       <div className={styles.container}>
-
         <div className={styles.heading}>
-          <p className={styles.eyebrow}>
-            {section.eyebrow}
-          </p>
+          <p className={styles.eyebrow}>{section.eyebrow}</p>
 
-          <h2>
-            {section.title}
-          </h2>
+          <h2>{section.title}</h2>
 
-          <p className={styles.description}>
-            {section.description}
-          </p>
+          <p className={styles.description}>{section.description}</p>
         </div>
 
         <div className={styles.grid}>
           {section.items.map((item, index) => (
-            <article
-              className={styles.card}
-              key={item.title}
-            >
+            <article className={styles.card} key={item.title}>
               <div className={styles.cardTop}>
                 <span className={styles.number}>
                   {String(index + 1).padStart(2, "0")}
@@ -43,7 +34,6 @@ export default function Services({ commons }) {
             </article>
           ))}
         </div>
-
       </div>
     </section>
   );
