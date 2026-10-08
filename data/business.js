@@ -1434,4 +1434,178 @@ export const businesses = {
       },
     },
   },
+
+  // Bacth 4
+
+"denitsa-radeva-petrova": {
+  slug: "denitsa-radeva-petrova",
+
+  brand: {
+    name: "Denitsa Radeva-Petrova Therapy",
+    shortName: "Denitsa Therapy",
+    tagline:
+      "Integrative psychotherapy and counselling psychology supporting emotional wellbeing, self-understanding, relationships, and personal growth.",
+  },
+
+  contact: {
+    phone: "+44 75 886 92891",
+    email: "denitsaradevapetrova@gmail.com",
+    city: "Canterbury",
+    address:
+      "Lombard House Health, Wellbeing and Business Centre, Canterbury, Kent, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Dr Denitsa Radeva-Petrova",
+    title: "Counselling Psychologist & Integrative Psychotherapist",
+    image: "https://static.wixstatic.com/media/fd5f86_66565452c46d4edcace22606c94e6e17~mv2.jpg/v1/crop/x_0,y_160,w_1052,h_1162/fill/w_297,h_328,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/542759507_24652324954456726_1047874375047217769_n%20(1)_edited_edited.jpg", // Add the direct therapist photo URL
+    cta: {
+      text: "Learn more about Dr Denitsa Radeva-Petrova",
+      href: "https://www.denitsarpetrova-therapy.com/",
+    },
+  },
+},
+"project-you-counselling": {
+  slug: "project-you-counselling",
+
+  brand: {
+    name: "ProjectYou Counselling",
+    shortName: "ProjectYou",
+    tagline:
+      "Pluralistic counselling, hypnotherapy, and postnatal support tailored to you.",
+  },
+
+  contact: {
+    phone: "07709490130",
+    email: "ella@projectyoucounselling.co.uk",
+    city: "Chelmsford",
+    address: "Chelmsford, Essex, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Ella",
+    title: "Psychotherapist, Counsellor & Hypnotherapist",
+    image:
+      "https://static.wixstatic.com/media/64990e_22a47a5db23043bd95210714e13d2a84~mv2.jpg/v1/fill/w_400,h_400,al_c,q_80,usm_0.66_1.00,quality_auto/IMG_20190709_210835_188.jpg",
+    cta: {
+      text: "Learn more about Ella",
+      href: "https://www.projectyoucounselling.co.uk/about-me",
+    },
+  },
+},
+"daylily-therapy": {
+  slug: "daylily-therapy",
+
+  brand: {
+    name: "Daylily Therapy",
+    shortName: "Daylily Therapy",
+    tagline:
+      "Person-centred counselling offering a calm, supportive space to explore your feelings and wellbeing.",
+  },
+
+  contact: {
+    phone: "07935454703",
+    email: "claire@daylilytherapy.co.uk", // Unverified placeholder
+    city: "United Kingdom",
+    address: "United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Claire",
+    title: "Qualified Person-Centred Counsellor",
+    image: "https://static.wixstatic.com/media/9238ea_d6ac4c3dc79b4700992dad7258b3e66c~mv2.jpeg/v1/fill/w_189,h_251,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_0785.jpeg", // Add the direct therapist photo URL
+    cta: {
+      text: "Learn more about Claire",
+      href: "https://www.daylilytherapy.co.uk/about-me",
+    },
+  },
+},
+"voice-counselling": {
+  slug: "voice-counselling",
+
+  brand: {
+    name: "Voice Counselling",
+    shortName: "Voice Counselling",
+    tagline:
+      "Integrative counselling and psychotherapy providing a safe, welcoming space to work through anxiety, depression, stress, and self-esteem challenges.",
+  },
+
+  contact: {
+    phone: "07704303661",
+    email: "kerryselvage@gmail.com", // Placeholder; unverified
+    city: "Bristol",
+    address: "Bristol, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Kerry Selvage",
+    title: "Counsellor & Psychotherapist",
+    image: "https://static.wixstatic.com/media/35af72_916606159a9b46868ed33efab07f771c~mv2.jpg/v1/crop/x_0,y_0,w_2840,h_2767/fill/w_208,h_203,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/website%20photo_edited.jpg", // Add the direct therapist photo URL
+    cta: {
+      text: "Learn more about Kerry Selvage",
+      href: "https://www.voicecounselling.co.uk/",
+    },
+  },
+},
+"aspire-counselling": {
+  slug: "aspire-counselling",
+
+  brand: {
+    name: "Aspire Counselling",
+    shortName: "Aspire Counselling",
+    tagline:
+      "Person-centred counselling for adults, couples, and young people in a safe and supportive environment.",
+  },
+
+  contact: {
+    phone: "07800843054",
+    email: "audreysandilands@gmail.com", // Placeholder; unverified
+    city: "Malpas",
+    address: "Malpas, Cheshire, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Audrey Sandilands",
+    title: "Qualified Person-Centred Counsellor",
+    image: "https://static.wixstatic.com/media/a498ed_f880f4bdd82e49459f22533027391b96~mv2.jpg/v1/fill/w_302,h_302,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20250909_195155_edited.jpg", // Add the direct therapist photo URL
+    cta: {
+      text: "Learn more about Audrey Sandilands",
+      href: "https://www.aspire-counselling.com/",
+    },
+  },
+},
+"naomi-bateren-therapy": {
+  slug: "naomi-bateren-therapy",
+
+  brand: {
+    name: "Naomi Bateren Therapy",
+    shortName: "Naomi Bateren Therapy",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "07864821243",
+    email: "hello@naomibaterentherapy.com",
+    city: "Liverpool",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Naomi Bateren",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "", // Add the direct therapist photo URL
+    cta: {
+      text: "Learn more about Naomi Bateren",
+      href: "https://www.naomibaterentherapy.com/about-me",
+    },
+  },
+},
 };
