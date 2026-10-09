@@ -951,7 +951,7 @@ export const businesses = {
     },
 
     therapist: {
-      name: "Locus Amoenus Therapies",
+      name: "Kelly",
       title: "Therapist",
       image:
         "https://static.wixstatic.com/media/debe79_33f02b3c49364786a30e4b13b7607c2e~mv2.jpg/v1/fill/w_388,h_512,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/debe79_33f02b3c49364786a30e4b13b7607c2e~mv2.jpg",
