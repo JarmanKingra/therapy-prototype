@@ -1,4 +1,5 @@
 import "./globals.css";
+import { ScrollReveal } from "../hooks/useScrollReveal";
 
 export const metadata = {
   title: "Therapy Practice",
@@ -7,8 +8,16 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" className="reveal-pending">
+      <body>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `setTimeout(function(){if(!window.__revealReady){document.documentElement.classList.remove("reveal-pending")}},8000)`,
+          }}
+        />
+        <ScrollReveal />
+        {children}
+      </body>
     </html>
   );
 }

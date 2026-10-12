@@ -121,3 +121,50 @@ textarea {
     animation: none !important;
   }
 }
+
+/*
+  Scroll reveal — one place to restyle every page.
+  Change the variables below (distance, blur, speed, stagger, easing).
+  The element list must match TAGS in hooks/useScrollReveal.js.
+*/
+:root {
+  --reveal-duration: 800ms;
+  --reveal-distance: 28px;
+  --reveal-blur: 2px;
+  --reveal-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --reveal-stagger: 70ms;
+}
+
+html.reveal-pending :is(main, footer) :is(h1, h2, h3, h4, h5, h6, p, img, li, blockquote, figcaption, summary, label, button, a, small, strong):not(:is(h1, h2, h3, h4, h5, h6, p, img, li, blockquote, figcaption, summary, label, button, a, small, strong) *) {
+  opacity: 0;
+  transform: translate3d(0, var(--reveal-distance), 0);
+  filter: blur(var(--reveal-blur));
+}
+
+html.reveal-pending :is(main, footer) :is(h1, h2, h3, h4, h5, h6, p, img, li, blockquote, figcaption, summary, label, button, a, small, strong):not(:is(h1, h2, h3, h4, h5, h6, p, img, li, blockquote, figcaption, summary, label, button, a, small, strong) *).reveal-in {
+  animation: scroll-reveal var(--reveal-duration) var(--reveal-ease) both;
+  animation-delay: calc(var(--reveal-stagger) * var(--reveal-index, 0));
+}
+
+@keyframes scroll-reveal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, var(--reveal-distance), 0);
+    filter: blur(var(--reveal-blur));
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    filter: blur(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce), (scripting: none) {
+  html.reveal-pending :is(main, footer) :is(h1, h2, h3, h4, h5, h6, p, img, li, blockquote, figcaption, summary, label, button, a, small, strong):not(:is(h1, h2, h3, h4, h5, h6, p, img, li, blockquote, figcaption, summary, label, button, a, small, strong) *) {
+    opacity: 1;
+    transform: none;
+    filter: none;
+    animation: none;
+  }
+}
