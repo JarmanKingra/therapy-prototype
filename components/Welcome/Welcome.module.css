@@ -109,7 +109,6 @@
   margin: 0 0 32px;
 
   color: var(--color-primary-dark);
-  font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(38px, 4.1vw, 60px);
   font-weight: 500;
   line-height: 1.16;
@@ -132,7 +131,6 @@
   margin: 0;
 
   color: var(--color-text);
-  font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(20px, 2vw, 29px);
   font-weight: 400;
   line-height: 1.65;
@@ -163,7 +161,6 @@
   margin: 0;
 
   color: var(--color-primary-dark);
-  font-family: Georgia, "Times New Roman", serif;
   font-size: 12px;
   font-weight: 700;
   line-height: 1.8;

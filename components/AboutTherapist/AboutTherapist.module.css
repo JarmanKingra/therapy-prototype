@@ -101,15 +101,12 @@
 
   font-size: 14px;
   font-weight: 500;
-
-  font-family: Georgia, "Times New Roman", serif;
   letter-spacing: 0.04em;
 }
 
 .caption strong {
   display: block;
 
-  font-family: Georgia, "Times New Roman", serif;
 
   font-size: clamp(30px, 3vw, 42px);
   font-weight: 400;
@@ -124,7 +121,6 @@
   margin-top: 9px;
 
   color: rgba(255, 255, 255, 0.82);
-  font-family: Georgia, "Times New Roman", serif;
 
   font-size: 12px;
   letter-spacing: 1px;
@@ -168,8 +164,7 @@
   margin: 22px 0 0;
 
   color: var(--color-primary-dark);
-
-  font-family: Georgia, "Times New Roman", serif;
+  
 
   font-size: clamp(30px, 5vw, 43px);
   font-weight: 400;

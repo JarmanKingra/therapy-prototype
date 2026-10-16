@@ -1,34 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+
+
 :root {
-  --color-primary: var(--business-primary, #315B52);
-  --color-primary-dark: var(--business-primary-dark, #21443C);
-  --color-primary-soft: #EDF3EF;
+  --color-primary: var(--business-primary, #315b52);
+  --color-primary-dark: var(--business-primary-dark, #21443c);
+  --color-primary-soft: #edf3ef;
 
   --color-accent: var(--business-accent, #c88f72);
   --color-accent-dark: color-mix(in srgb, var(--color-accent), #000 15%);
-  --color-accent-light: #F4DDD1;
+  --color-accent-light: #f4ddd1;
   --color-accent-soft: color-mix(in srgb, var(--color-accent), #fff 88%);
 
-  --color-text: #30413B;
-  --color-text-muted: #65736E;
+  --color-text: #30413b;
+  --color-text-muted: #65736e;
 
-  --color-background: #FBFAF7;
-  --color-surface: #FFFFFF;
-  --color-border: #DFE7E2;
+  --color-background: #fbfaf7;
+  --color-surface: #ffffff;
+  --color-border: #dfe7e2;
 
-  --color-success: #23806A;
+  --color-success: #23806a;
 
   --container-width: 1180px;
   --container-width-full-max: 100%;
   --container-width-max: 90%;
   --container-width-mid: 80%;
-  /* --container-width: 100%; */
 
   --radius-sm: 8px;
   --radius-md: 16px;
   --radius-lg: 24px;
 
   --shadow-sm: 0 4px 18px rgba(48, 65, 59, 0.06);
-  --shadow-md: 0 12px 35px rgba(48, 65, 59, 0.10);
+  --shadow-md: 0 12px 35px rgba(48, 65, 59, 0.1);
   --shadow-lg: 0 24px 70px rgba(48, 65, 59, 0.15);
 }
 
@@ -45,8 +47,13 @@ body {
   margin: 0;
   background: var(--color-background);
   color: var(--color-text);
-  font-family: Georgia, "Times New Roman", serif;
   -webkit-font-smoothing: antialiased;
+ font-family: "Margarine", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* font-size: clamp(68px, 7.5vw, 96px); */
+
+line-height: 1.25;
 }
 
 a {
@@ -101,11 +108,7 @@ textarea {
 }
 
 :focus-visible {
-  outline: 3px solid color-mix(
-    in srgb,
-    var(--color-accent),
-    #fff 30%
-  );
+  outline: 3px solid color-mix(in srgb, var(--color-accent), #fff 30%);
   outline-offset: 3px;
 }
 
@@ -128,20 +131,102 @@ textarea {
   The element list must match TAGS in hooks/useScrollReveal.js.
 */
 :root {
-  --reveal-duration: 800ms;
+  --reveal-duration: 1600ms;
   --reveal-distance: 28px;
-  --reveal-blur: 2px;
+  --reveal-blur: 0px;
   --reveal-ease: cubic-bezier(0.22, 1, 0.36, 1);
   --reveal-stagger: 70ms;
 }
 
-html.reveal-pending :is(main, footer) :is(h1, h2, h3, h4, h5, h6, p, img, li, blockquote, figcaption, summary, label, button, a, small, strong):not(:is(h1, h2, h3, h4, h5, h6, p, img, li, blockquote, figcaption, summary, label, button, a, small, strong) *) {
+html.reveal-pending
+  :is(main, footer)
+  :is(
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    img,
+    li,
+    blockquote,
+    figcaption,
+    summary,
+    label,
+    button,
+    a,
+    small,
+    strong
+  ):not(
+    :is(
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        img,
+        li,
+        blockquote,
+        figcaption,
+        summary,
+        label,
+        button,
+        a,
+        small,
+        strong
+      )
+      *
+  ) {
   opacity: 0;
   transform: translate3d(0, var(--reveal-distance), 0);
   filter: blur(var(--reveal-blur));
 }
 
-html.reveal-pending :is(main, footer) :is(h1, h2, h3, h4, h5, h6, p, img, li, blockquote, figcaption, summary, label, button, a, small, strong):not(:is(h1, h2, h3, h4, h5, h6, p, img, li, blockquote, figcaption, summary, label, button, a, small, strong) *).reveal-in {
+html.reveal-pending
+  :is(main, footer)
+  :is(
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    img,
+    li,
+    blockquote,
+    figcaption,
+    summary,
+    label,
+    button,
+    a,
+    small,
+    strong
+  ):not(
+    :is(
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        img,
+        li,
+        blockquote,
+        figcaption,
+        summary,
+        label,
+        button,
+        a,
+        small,
+        strong
+      )
+      *
+  ).reveal-in {
   animation: scroll-reveal var(--reveal-duration) var(--reveal-ease) both;
   animation-delay: calc(var(--reveal-stagger) * var(--reveal-index, 0));
 }
@@ -161,7 +246,48 @@ html.reveal-pending :is(main, footer) :is(h1, h2, h3, h4, h5, h6, p, img, li, bl
 }
 
 @media (prefers-reduced-motion: reduce), (scripting: none) {
-  html.reveal-pending :is(main, footer) :is(h1, h2, h3, h4, h5, h6, p, img, li, blockquote, figcaption, summary, label, button, a, small, strong):not(:is(h1, h2, h3, h4, h5, h6, p, img, li, blockquote, figcaption, summary, label, button, a, small, strong) *) {
+  html.reveal-pending
+    :is(main, footer)
+    :is(
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      img,
+      li,
+      blockquote,
+      figcaption,
+      summary,
+      label,
+      button,
+      a,
+      small,
+      strong
+    ):not(
+      :is(
+          h1,
+          h2,
+          h3,
+          h4,
+          h5,
+          h6,
+          p,
+          img,
+          li,
+          blockquote,
+          figcaption,
+          summary,
+          label,
+          button,
+          a,
+          small,
+          strong
+        )
+        *
+    ) {
     opacity: 1;
     transform: none;
     filter: none;
