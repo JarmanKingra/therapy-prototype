@@ -88,7 +88,7 @@ export const commons = {
         title: "Major life decisions",
         text: "Slow down the noise around difficult choices so you can hear your own values, needs, and instincts more clearly.",
         icon: "04",
-        image: "https://assets3.thrillist.com/v1/image/3180872/1200x630/flatten;crop_down;webp=auto;jpeg_quality=70",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR84SGJEAGok8EOW-0mad0rZRJ-QTkpkUci5HMjLRz2svrSJwnbRzjESmku&s=10",
       },
     ],
   },

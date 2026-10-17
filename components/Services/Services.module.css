@@ -131,6 +131,7 @@
       var(--color-background) 88%,
       var(--color-primary-dark) 12%);
   border-radius: 48% 52% 43% 57% / 43% 39% 61% 57%;
+  box-shadow: 5px 10px 80px rgb(77, 88, 52, 0.5);
 }
 
 .item:nth-child(even) .imageWrap {
