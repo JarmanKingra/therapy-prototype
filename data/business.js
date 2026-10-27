@@ -1780,15 +1780,15 @@ export const businesses = {
   slug: "Therapy With Catherine",
 
   brand: {
-    name: "Sagi Shalom Therapy",
-    shortName: "Sagi Shalom",
+    name: "Dr. Netalie Shloim Therapy",
+    shortName: "Dr. Netalie Shloim",
     tagline:
       "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
   },
 
   contact: {
     phone: "+44 123456789",
-    email:"Sagi@gmail.com@outlook.com",
+    email:"Netalie@gmail.com@outlook.com",
     city: "United Kindom",
     address:
       "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
@@ -1796,11 +1796,11 @@ export const businesses = {
   },
 
   therapist: {
-    name: "Sagi Shalom",
+    name: "Dr. Netalie Shloim",
     title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
     image: "https://static.wixstatic.com/media/f9d4d6_9434b3cc70714887b6fff3e158d9e74d~mv2.png/v1/crop/x_939,y_0,w_4656,h_4000/fill/w_681,h_585,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Profile-pic-2_2Small.png",
     cta: {
-      text: "Learn more about Sagi Shalom",
+      text: "Learn more about Dr. Netalie Shloim",
       href: "https://www.drnetaliepsychotherapy.com/about",
     },
   },
