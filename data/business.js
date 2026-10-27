@@ -1718,4 +1718,91 @@ export const businesses = {
     },
   },
 },
+"therapy-with-ting": {
+  slug: "Therapy With Ting",
+
+  brand: {
+    name: "Ting Therapy",
+    shortName: "Ting Therapy",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+44 123456789",
+    email:"ting@gmail.com@outlook.com",
+    city: "United Kindom",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Ting Lee",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://therapywithting.com/wp-content/uploads/2026/03/img_0954.jpg",
+    cta: {
+      text: "Learn more about Therapy With Ting",
+      href: "https://therapywithting.com/about-me/",
+    },
+  },
+},
+"catherine-parker-therapy": {
+  slug: "Therapy With Catherine",
+
+  brand: {
+    name: "Catherine Therapy",
+    shortName: "Catherine Therapy",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+44 123456789",
+    email:"Catherine@gmail.com@outlook.com",
+    city: "United Kindom",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Catherine Parker",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://static.wixstatic.com/media/ec2fea_ebc43861435a4d9892ceb88674ad5435~mv2.jpg/v1/fill/w_599,h_446,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ec2fea_ebc43861435a4d9892ceb88674ad5435~mv2.jpg",
+    cta: {
+      text: "Learn more about Therapy With Catherine",
+      href: "http://www.catherineparkertherapy.co.uk/",
+    },
+  },
+},
+"dr-netalie-psychotherapy": {
+  slug: "Therapy With Catherine",
+
+  brand: {
+    name: "Sagi Shalom Therapy",
+    shortName: "Sagi Shalom",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+44 123456789",
+    email:"Sagi@gmail.com@outlook.com",
+    city: "United Kindom",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Sagi Shalom",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://static.wixstatic.com/media/f9d4d6_9434b3cc70714887b6fff3e158d9e74d~mv2.png/v1/crop/x_939,y_0,w_4656,h_4000/fill/w_681,h_585,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Profile-pic-2_2Small.png",
+    cta: {
+      text: "Learn more about Sagi Shalom",
+      href: "https://www.drnetaliepsychotherapy.com/about",
+    },
+  },
+},
 };
