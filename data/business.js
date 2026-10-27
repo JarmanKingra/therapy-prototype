@@ -82,7 +82,7 @@ export const commons = {
         title: "Relationships & boundaries",
         text: "Understand patterns, communicate more clearly, and create boundaries without losing yourself in the process.",
         icon: "03",
-        image: "https://png.pngtree.com/thumb_back/fh260/background/20240105/pngtree-textured-coniferous-green-a-natural-background-or-wallpaper-image_13853295.png",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReyh9lXVAmOdR6e4l9mwbVSpA9MSwsELtnBi56a4hN70tK5PZxxSvyIsQ&s=10",
       },
       {
         title: "Major life decisions",
@@ -1599,6 +1599,35 @@ export const businesses = {
     cta: {
       text: "Learn more about Naomi Bateren",
       href: "https://www.naomibaterentherapy.com/about-me",
+    },
+  },
+},
+"counsellinginhull-therapy": {
+  slug: "naomi-bateren-therapy",
+
+  brand: {
+    name: "Alex Carling",
+    shortName: "Alex Carling",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+44 7980 291528",
+    email: "alex@counsellinginhull.co.uk",
+    city: "United Kindom",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Alex Carling",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://images.squarespace-cdn.com/content/v1/5eece33d97a944698c0eb555/fc77075c-baa7-4a63-9f95-4ab9ed456944/Alex+Carling+%7C+Psycotherapist+%7C+Brainspotting+Practitioner?format=1000w", // Add the direct therapist photo URL
+    cta: {
+      text: "Learn more about Alex Therapy",
+      href: "https://www.counsellinginhull.co.uk/",
     },
   },
 },
