@@ -1631,4 +1631,91 @@ export const businesses = {
     },
   },
 },
+"julia-yates-counselling": {
+  slug: "Julia Yates Counselling",
+
+  brand: {
+    name: "Julia Yates",
+    shortName: "Julia",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+44 7462 363434",
+    email: "lancastercreativecounselling@gmail.com@outlook.com",
+    city: "United Kindom",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Julia Yates",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/448095605_981734980622448_2320251039324427066_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=wQVEF9T6u2cQ7kNvwHd1Djg&_nc_oc=AdpDfmmQSPtRxxMTVnjJn_CxX9uCD0HzaSNnh9-bx9iRMg1xy0dT5-QrfzJUz9YAfS8&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&_nc_gid=oAs3zZLIXzqk6Y6LYeic0Q&_nc_ss=792a8&oh=00_AQPTKNuu8qINeO7P8xiSzUNphBeSo4TDkI_YDE8E4ZlZgw&oe=6AE5D909", // Add the direct therapist photo URL
+    cta: {
+      text: "Learn more about Julia Therapy",
+      href: "https://www.facebook.com/JuliaYatesCounsellorLancaster",
+    },
+  },
+},
+"urshala-therapy": {
+  slug: "Ursula Balikowska",
+
+  brand: {
+    name: "Ursula Balikowska",
+    shortName: "Ursula",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+44 123456789",
+    email: "urshala@gmail.com@outlook.com",
+    city: "United Kindom",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Ursula Balikowska",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/492995190_1235253541936999_8610312473131594058_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=oMg0hBUumi8Q7kNvwGocKTW&_nc_oc=AdrkCfLE7Bt46wSXw8CXmlw6xajj6O1pvQi8DJBytMzIqaWaKpoby9a7gbuCKo5zGIw&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&_nc_gid=686rpOipS34tI4RaMRxcwg&_nc_ss=792a8&oh=00_AQOz9ar5X1hTcEh26fb-jqDigqMj6x2msoOIWUARSfe6CA&oe=6AE5F0F7", // Add the direct therapist photo URL
+    cta: {
+      text: "Learn more about Urshala Therapy",
+      href: "https://www.facebook.com/polskipsychoterapeutawleeds/",
+    },
+  },
+},
+"inspire-life-therapy": {
+  slug: "Inspire Life Therapy",
+
+  brand: {
+    name: "Inspire Life Therapy",
+    shortName: "Ingrid",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+44 123456789",
+    email:"Ingrid@gmail.com@outlook.com",
+    city: "United Kindom",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Krista",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://inspirelifetherapy.co.uk/wp-content/uploads/2023/03/ingrid-steele-photo-march-2023-rotated.jpg",
+    cta: {
+      text: "Learn more about Ingrid Therapy",
+      href: "https://inspirelifetherapy.co.uk/",
+    },
+  },
+},
 };
