@@ -1921,4 +1921,33 @@ export const businesses = {
     },
   },
 },
+"individualized-psychological-services": {
+  slug: "Individualized Psychological Services",
+
+  brand: {
+    name: "Individualized Psychological Counselling",
+    shortName: "Individualized Psychological",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+44 123456789",
+    email:"Yaakov@gmail.com@outlook.com",
+    city: "United Kindom",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Dr. Yaakov Shugarman",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://individualizedpsychologicalservices.com/wp-content/uploads/2018/10/E1C-768x848.jpg",
+    cta: {
+      text: "Learn more about Dr. Yaakov Shugarman",
+      href: "https://individualizedpsychologicalservices.com/about-me/",
+    },
+  },
+},
 };
