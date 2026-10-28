@@ -1805,4 +1805,91 @@ export const businesses = {
     },
   },
 },
+"sensi-walters-therapy": {
+  slug: "Melia May Therapy",
+
+  brand: {
+    name: "Melia May Therapy",
+    shortName: "Sensi Walters",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+44 123456789",
+    email:"sensi@gmail.com@outlook.com",
+    city: "United Kindom",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Sensi Walter",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ShiGRoaXSKpzAswGPsneVeDOUhmqqx9TxLfBoZ6x49p6hGDJTf6Fv-Mvee15AlW_h3eLO5DAyAoAhRxgc8lcREwh4ywc2JfYLsWOsXbBNVGPjRCKnxO13H5QxvmjuvSJd2JzfmvWw8rfFS=w224-h298-n-k-no",
+    cta: {
+      text: "Learn more about Sensi Walter",
+      href: "https://www.accph.org.uk/uploads/curriculum-vitae/1692-cv-1671035132.pdf",
+    },
+  },
+},
+"counselling-leicester": {
+  slug: "Counselling Leicester",
+
+  brand: {
+    name: "Counselling & Psychotherapy in Leicester",
+    shortName: "Leicester",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+44 123456789",
+    email:"carolbaker1066@gmail.com@outlook.com",
+    city: "United Kindom",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Carol Baker",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH9tg4nTlEDqbXQUwolpdbPXK5QVjpoZbRvlSPxtCU_RJzY6Eav23mb6UP&s=10",
+    cta: {
+      text: "Learn more about Carol Baker",
+      href: "https://www.counsellingleicester.co.uk/carol-baker",
+    },
+  },
+},
+"ontic-psychology": {
+  slug: "Counselling Leicester",
+
+  brand: {
+    name: "Ontic-Psychology",
+    shortName: "ontic-psychology",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+44 123456789",
+    email:"Candice@gmail.com@outlook.com",
+    city: "United Kindom",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Dr Candice O'Neil",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvzCbn_LSbIFiYDWgXwZzbp-Auvvf6TTILn5WobzF8nQ0Xfo3X1LVbsm4&s=10",
+    cta: {
+      text: "Learn more about Dr Candice O'Neil",
+      href: "https://www.onticpsychology.com/",
+    },
+  },
+},
 };
