@@ -1921,7 +1921,7 @@ export const businesses = {
     },
   },
 },
-"individualized-psychological-services": {
+"dr-yaakov-shugarman": {
   slug: "Individualized Psychological Services",
 
   brand: {
