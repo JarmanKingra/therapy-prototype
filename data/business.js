@@ -1892,4 +1892,33 @@ export const businesses = {
     },
   },
 },
+"jamie-doherty-therapy": {
+  slug: "Jamie Doherty Counselling",
+
+  brand: {
+    name: "Jamie Doherty Counselling",
+    shortName: "Jamie Doherty",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+44 123456789",
+    email:"jamie@gmail.com@outlook.com",
+    city: "United Kindom",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Jamie Doherty",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://static.wixstatic.com/media/f1f718_49f1fdeed25f4a4aadbb7155d697f518~mv2.jpg/v1/crop/x_133,y_0,w_622,h_1145/fill/w_622,h_1144,al_c,q_85,enc_avif,quality_auto/hero_optimised_edited.jpg",
+    cta: {
+      text: "Learn more about Jamie Doherty",
+      href: "https://www.jdoherty.co.uk/",
+    },
+  },
+},
 };
