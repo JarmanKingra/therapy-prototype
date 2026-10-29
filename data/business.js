@@ -2009,7 +2009,7 @@ export const businesses = {
   },
 },
 "foster-counseling": {
-  slug: "Jonathan Mack Counselling",
+  slug: "Zoe Foster Counselling",
 
   brand: {
     name: "Zoe Foster Counselling",
@@ -2034,6 +2034,35 @@ export const businesses = {
     cta: {
       text: "Learn more about Zoe Foster",
       href: "https://www.thefosterpractice.co.uk/about",
+    },
+  },
+},
+"Colette-counseling": {
+  slug: "Colette Butler Counselling",
+
+  brand: {
+    name: "Colette Butler Counselling",
+    shortName: "Colette Butler-Hartley",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+44 123456789",
+    email:"Butler@gmail.com@outlook.com",
+    city: "United Kindom",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Colette Butler ",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://static.wixstatic.com/media/97308d_2126d611467648869bea2d616ad89f4f~mv2.jpg/v1/crop/x_0,y_93,w_1034,h_785/fill/w_424,h_322,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/letty%20new_jfif.jpg",
+    cta: {
+      text: "Learn more about Colette Butler",
+      href: "https://www.thegrowthroom.net/about",
     },
   },
 },
