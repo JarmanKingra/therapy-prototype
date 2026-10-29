@@ -2066,4 +2066,33 @@ export const businesses = {
     },
   },
 },
+"alicepinion-counseling": {
+  slug: "Alice Counselling",
+
+  brand: {
+    name: " Alice Counselling",
+    shortName: "Head First Talking",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+44 123456789",
+    email:"Alice@gmail.com@outlook.com",
+    city: "United Kindom",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Alice ",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://static.wixstatic.com/media/9dbe24_7844aa0861e94feebd664e50d28a30fa~mv2.png/v1/fill/w_928,h_526,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screen%20Shot%202021-05-19%20at%2012_48_59.png",
+    cta: {
+      text: "Learn more about Alice",
+      href: "https://www.alicepinion.co.uk/about",
+    },
+  },
+},
 };
