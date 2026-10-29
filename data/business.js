@@ -1950,4 +1950,91 @@ export const businesses = {
     },
   },
 },
+"robin-balanced-mind": {
+  slug: "Balance Minds Counselling",
+
+  brand: {
+    name: "Balance Minds Counselling",
+    shortName: "Balance Minds",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+44 123456789",
+    email:"Robin@gmail.com@outlook.com",
+    city: "United Kindom",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Robin Blackwell",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://img1.wsimg.com/isteam/ip/d4a23480-0c84-46de-974a-da9962f45e23/PHOTOS.jpg/:/cr=t:5.57%25,l:0%25,w:100%25,h:88.85%25/rs=w:1200,h:1600,cg:true",
+    cta: {
+      text: "Learn more about Robin Blackwell",
+      href: "https://www.magnoliaflowercounseling.com/",
+    },
+  },
+},
+"jonathan-mack-counseling": {
+  slug: "Jonathan Mack Counselling",
+
+  brand: {
+    name: "Jonathan Mack Counselling",
+    shortName: "Jonathan Mack",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+44 123456789",
+    email:"Jonathan@gmail.com@outlook.com",
+    city: "United Kindom",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Jonathan Mack",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://lh3.googleusercontent.com/a-/ALV-UjUEfldM_KxP797APxt1ZHt2-poVoIgDaJBeWkCCPCBne-jL01JSrw=s240-p-k-rw-no",
+    cta: {
+      text: "Learn more about Jonathan Mack",
+      href: "https://jonathanmackcounseling.com/",
+    },
+  },
+},
+"foster-counseling": {
+  slug: "Jonathan Mack Counselling",
+
+  brand: {
+    name: "Zoe Foster Counselling",
+    shortName: "The Foster",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+44 123456789",
+    email:"Foster@gmail.com@outlook.com",
+    city: "United Kindom",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Zoe Foster",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://static.wixstatic.com/media/b2fe6e_986dbd5efa884775b1037aea5f06346b.jpg/v1/fill/w_280,h_265,al_c,lg_1,q_80,enc_avif,quality_auto/b2fe6e_986dbd5efa884775b1037aea5f06346b.jpg",
+    cta: {
+      text: "Learn more about Zoe Foster",
+      href: "https://www.thefosterpractice.co.uk/about",
+    },
+  },
+},
 };
