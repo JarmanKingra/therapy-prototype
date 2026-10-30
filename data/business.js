@@ -2124,4 +2124,33 @@ export const businesses = {
     },
   },
 },
+"drlisa-counseling": {
+  slug: "Dr Karin Counselling",
+
+  brand: {
+    name: "Dr Lisa Counselling",
+    shortName: "Dr Lisa",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+1 123456789",
+    email:"lisa@gmail.com@outlook.com",
+    city: "United States",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Dr Lisa E. Harris, Ph.D",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://drlisaharris.com/index_files/image002.jpg",
+    cta: {
+      text: "Learn more about Dr Lisa",
+      href: "https://drlisaharris.com/",
+    },
+  },
+},
 };
