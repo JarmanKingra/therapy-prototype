@@ -66,9 +66,11 @@ export default async function TherapyPage({ params }) {
 
                 <Welcome business={business} commons={commons}/>
 
+                 <AboutTherapist business={business} commons={commons}/>
+
                 <Services business={business} commons={commons}/>
 
-                <AboutTherapist business={business} commons={commons}/>
+               
 
                 <Approach business={business} commons={commons}/>
 
