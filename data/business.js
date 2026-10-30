@@ -2153,4 +2153,33 @@ export const businesses = {
     },
   },
 },
+"katrina-schofield-counseling": {
+  slug: "Katrina Schofield Counselling",
+
+  brand: {
+    name: "Katrina Schofield Counselling",
+    shortName: "Katrina Schofield",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+44 123456789",
+    email:"katrina@gmail.com@outlook.com",
+    city: "United Kingdom",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Katrina Schofield",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://scontent.fixc1-4.fna.fbcdn.net/v/t39.30808-6/608973150_827097053666310_9064965800123549932_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x1920&ctp=s640x640&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_ohc=r6azwxsfhRQQ7kNvwE3fatx&_nc_oc=AdqioAF4458v6c4mKe5002koHEN_zp__Imhi9yOQy1Fl665UgkaxJ2EVQQPwgjrQUwE&_nc_zt=23&_nc_ht=scontent.fixc1-4.fna&_nc_gid=trtFcZlqbQyKzUrqAxxY4g&_nc_ss=7b2a8&oh=00_AQRNSVp4BTKn9Ag4Oc5GIcT9nshnapkLSv2VwU0_pQ5nWg&oe=6AEA25D8",
+    cta: {
+      text: "Learn more about Katrina",
+      href: "https://www.facebook.com/profile.php?id=100090980673603",
+    },
+  },
+},
 };
