@@ -2182,4 +2182,33 @@ export const businesses = {
     },
   },
 },
+"melanie-mcQuade-counseling": {
+  slug: "Melanie McQuade Counselling",
+
+  brand: {
+    name: "Melanie McQuade Counselling",
+    shortName: "Melanie McQuade",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+44 123456789",
+    email:"Melanie@gmail.com@outlook.com",
+    city: "United Kingdom",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Melanie McQuade",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/547010260_1373163487604261_2213593074630674587_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Ufl5jzAEXo4Q7kNvwEPj8uV&_nc_oc=Adp2u9g3acO-wF-jutBQGj4dPYbiJ8AW0nFAHCRZYODropq5j9AWiq8j21f1PBFJ_-M&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&_nc_gid=i2U0E2Q0YsY9qrD4igwluw&_nc_ss=792a8&oh=00_AQQ9PlHRkh64AmUh04VVUgR5imAmpgU3Hb7rzpwbuFY4VQ&oe=6AEA3ECA",
+    cta: {
+      text: "Learn more about Melanie",
+      href: "https://www.facebook.com/Counsellng",
+    },
+  },
+},
 };
