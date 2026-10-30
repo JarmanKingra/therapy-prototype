@@ -2125,7 +2125,7 @@ export const businesses = {
   },
 },
 "drlisa-counseling": {
-  slug: "Dr Karin Counselling",
+  slug: "Dr Lisa Counselling",
 
   brand: {
     name: "Dr Lisa Counselling",
