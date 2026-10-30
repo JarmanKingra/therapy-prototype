@@ -2095,4 +2095,33 @@ export const businesses = {
     },
   },
 },
+"drkarinhart-counseling": {
+  slug: "Dr Karin Counselling",
+
+  brand: {
+    name: "Dr Karin Counselling",
+    shortName: "Dr Karin Hart",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+1 123456789",
+    email:"Karin@gmail.com@outlook.com",
+    city: "United States",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Dr Karin Hart",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://www.drkarinhart.com/files/1__8_FIX_Crop_PS2.jpg",
+    cta: {
+      text: "Learn more about Dr Karin Hart",
+      href: "https://www.drkarinhart.com/About.html",
+    },
+  },
+},
 };
