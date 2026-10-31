@@ -2211,4 +2211,265 @@ export const businesses = {
     },
   },
 },
+"david-clemons-counseling": {
+  slug: "David Clemons Counselling",
+
+  brand: {
+    name: "David Clemons Counselling",
+    shortName: "David Clemons",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+1 123456789",
+    email:"David@gmail.com@outlook.com",
+    city: "United States",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "David Clemons",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://photos.psychologytoday.com/fa5df3a9-9a85-4526-a2cf-a0815a5d8eae/1/320x400.jpeg",
+    cta: {
+      text: "Learn more about David",
+      href: "https://www.davidpsyd.com/about",
+    },
+  },
+},
+"christine-hall-counseling": {
+  slug: "Dr. Christine Hall Counselling",
+
+  brand: {
+    name: "Dr. Christine Hall Counselling",
+    shortName: "Dr. Christine Hall",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+1 123456789",
+    email:"christine@gmail.com@outlook.com",
+    city: "United States",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Dr. Christine Hall",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://psidirectory.com/media/cache/medium/custom/domain_1/image_files/980_photo_27544.jpg",
+    cta: {
+      text: "Learn more about Dr. Christine",
+      href: "http://christinehallaustin.com/about-dr-christine-hall/",
+    },
+  },
+},
+"sara-iannaco-counseling": {
+  slug: "Sara Iannaco Counselling",
+
+  brand: {
+    name: "Sara Iannaco Counselling",
+    shortName: "Sara Iannaco",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+1 123456789",
+    email:"sara@gmail.com@outlook.com",
+    city: "United States",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Sara Iannaco",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://photos.psychologytoday.com/543ff746-46cd-11ea-a6ad-06142c356176/2/320x400.jpeg",
+    cta: {
+      text: "Learn more about Sara",
+      href: "https://www.saramft.com/about-me",
+    },
+  },
+},
+"peggy-brewer-counseling": {
+  slug: "Dr. Peggy Brewer Counselling",
+
+  brand: {
+    name: "Dr. Peggy Brewer Counselling",
+    shortName: "Dr. Peggy Brewer",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+1 123456789",
+    email:"peggy@gmail.com@outlook.com",
+    city: "United States",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Dr. Peggy Brewer",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://photos.psychologytoday.com/a1aeea71-7cf0-4971-8567-edc925241513/1/320x400.jpeg",
+    cta: {
+      text: "Learn more about Dr. Peggy",
+      href: "https://drpeggybrewer.com/",
+    },
+  },
+},
+"glenn-hutchinson-counseling": {  
+  slug: "Dr. Glenn Hutchinson Counselling",
+
+  brand: {
+    name: "Dr. Glenn Hutchinson Counselling",
+    shortName: "Dr. Glenn Hutchinson",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+1 123456789",
+    email:"Glenn@gmail.com@outlook.com",
+    city: "United States",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Dr. Glenn Hutchinson",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://glennhutchinson.net/wp-content/uploads/2026/07/G60A3994_262X262.jpg",
+    cta: {
+      text: "Learn more about Dr. Glenn",
+      href: "https://glennhutchinson.net/about-me/",
+    },
+  },
+},
+"nancy-cahir-counseling": {  
+  slug: "Dr Nancy Cahir Counselling",
+
+  brand: {
+    name: "Dr Nancy Cahir Counselling",
+    shortName: "Dr Nancy Cahir",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+1 123456789",
+    email:"Nancy@gmail.com@outlook.com",
+    city: "United States",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Dr Nancy Cahir",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://photos.psychologytoday.com/3bac4749-46cd-11ea-a6ad-06142c356176/8/320x400.jpeg",
+    cta: {
+      text: "Learn more about Dr. Nancy",
+      href: "https://www.nancycahirphd.com/bio.html",
+    },
+  },
+},
+"richard-schultz-counseling": {  
+  slug: "Dr Richard Schultz Counselling",
+
+  brand: {
+    name: "Dr Richard Schultz Counselling",
+    shortName: "Dr Richard Schultz",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+1 123456789",
+    email:"Richard@gmail.com@outlook.com",
+    city: "United States",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Dr Richard Schultz",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://static.wixstatic.com/media/5216aa_2580650f535b44888ecfd898b0b1a67b~mv2.jpg/v1/crop/x_0,y_60,w_1053,h_1383/fill/w_370,h_486,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_8694.jpg",
+    cta: {
+      text: "Learn more about Dr. Richard",
+      href: "https://www.drschultz.org/about",
+    },
+  },
+},
+"mary-gresham-counseling": {  
+  slug: "Dr Mary Gresham Counselling",
+
+  brand: {
+    name: "Dr Mary Gresham Counselling",
+    shortName: "Dr Mary Gresham",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+1 123456789",
+    email:"Mary@gmail.com@outlook.com",
+    city: "United States",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Dr Mary Gresham",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5_kk7VBWQIdFgimc33Us3i2A9m9kwNGrMRTn4SNwgxQ&s",
+    cta: {
+      text: "Learn more about Dr. Mary",
+      href: "https://doctorgresham.com/about/",
+    },
+  },
+},
+"anna-kaye-counseling": {  
+  slug: "Anna Kaye Counselling",
+
+  brand: {
+    name: "Anna Kaye Counselling",
+    shortName: "Anna Kaye",
+    tagline:
+      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+  },
+
+  contact: {
+    phone: "+1 123456789",
+    email:"Anna@gmail.com@outlook.com",
+    city: "United States",
+    address:
+      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Anna Kaye",
+    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG2zTlSw8s9py0p5Kwa9f6A0vPpUkTrNzx80CyDdKzJadkaHbxGVoHhNNX&s=10",
+    cta: {
+      text: "Learn more about Anna Kaye",
+      href: "https://www.annakaye.com/contact.html",
+    },
+  },
+},
 };
