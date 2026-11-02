@@ -2651,7 +2651,7 @@ export const businesses = {
 
     brand: {
       name: "Dr Julie Beavan Counselling",
-      shortName: "Julie Beava",
+      shortName: "Julie Beavan",
       tagline:
         "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
     },
