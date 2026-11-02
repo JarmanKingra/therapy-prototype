@@ -2617,4 +2617,33 @@ export const businesses = {
       },
     },
   },
+  "susan-ferencz-counseling": {
+    slug: "Susan Ferencz Counselling",
+
+    brand: {
+      name: "Susan Ferencz Counselling",
+      shortName: "Susan Ferencz",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
+
+    contact: {
+      phone: "+1 123456789",
+      email: "susan@gmail.com@outlook.com",
+      city: "United States",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Susan Ferencz",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://s3-media0.fl.yelpcdn.com/bphoto/D95RnO3hKcsb5B6mfW9x_Q/ls.jpg",
+      cta: {
+        text: "Learn more about Susan Ferencz",
+        href: "https://www.google.com/maps/place/Susan+Ferencz,+Psy.D.,+ABSNP,+Licensed+Educational+Psychologist/@33.8334664,-118.4369714,10z/data=!4m10!1m2!2m1!1spsyd+therapist+in+Anaheim!3m6!1s0x80dcd3e24eb7fdc5:0x30e52573488e5cd7!8m2!3d33.8600002!4d-117.8061829!15sChlwc3lkIHRoZXJhcGlzdCBpbiBBbmFoZWltkgEMcHN5Y2hvbG9naXN04AEA!16s%2Fg%2F11gcncfxls?authuser=0&entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+      },
+    },
+  },
 };
