@@ -1431,1045 +1431,1161 @@ export const businesses = {
 
   // Bacth 4
 
-"denitsa-radeva-petrova": {
-  slug: "denitsa-radeva-petrova",
+  "denitsa-radeva-petrova": {
+    slug: "denitsa-radeva-petrova",
 
-  brand: {
-    name: "Denitsa Radeva-Petrova Therapy",
-    shortName: "Denitsa Therapy",
-    tagline:
-      "Integrative psychotherapy and counselling psychology supporting emotional wellbeing, self-understanding, relationships, and personal growth.",
-  },
+    brand: {
+      name: "Denitsa Radeva-Petrova Therapy",
+      shortName: "Denitsa Therapy",
+      tagline:
+        "Integrative psychotherapy and counselling psychology supporting emotional wellbeing, self-understanding, relationships, and personal growth.",
+    },
 
-  contact: {
-    phone: "+44 75 886 92891",
-    email: "denitsaradevapetrova@gmail.com",
-    city: "Canterbury",
-    address:
-      "Lombard House Health, Wellbeing and Business Centre, Canterbury, Kent, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+44 75 886 92891",
+      email: "denitsaradevapetrova@gmail.com",
+      city: "Canterbury",
+      address:
+        "Lombard House Health, Wellbeing and Business Centre, Canterbury, Kent, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Dr Denitsa Radeva-Petrova",
-    title: "Counselling Psychologist & Integrative Psychotherapist",
-    image: "https://static.wixstatic.com/media/fd5f86_66565452c46d4edcace22606c94e6e17~mv2.jpg/v1/crop/x_0,y_160,w_1052,h_1162/fill/w_297,h_328,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/542759507_24652324954456726_1047874375047217769_n%20(1)_edited_edited.jpg", // Add the direct therapist photo URL
-    cta: {
-      text: "Learn more about Dr Denitsa Radeva-Petrova",
-      href: "https://www.denitsarpetrova-therapy.com/",
+    therapist: {
+      name: "Dr Denitsa Radeva-Petrova",
+      title: "Counselling Psychologist & Integrative Psychotherapist",
+      image: "https://static.wixstatic.com/media/fd5f86_66565452c46d4edcace22606c94e6e17~mv2.jpg/v1/crop/x_0,y_160,w_1052,h_1162/fill/w_297,h_328,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/542759507_24652324954456726_1047874375047217769_n%20(1)_edited_edited.jpg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Dr Denitsa Radeva-Petrova",
+        href: "https://www.denitsarpetrova-therapy.com/",
+      },
     },
   },
-},
-"project-you-counselling": {
-  slug: "project-you-counselling",
+  "project-you-counselling": {
+    slug: "project-you-counselling",
 
-  brand: {
-    name: "ProjectYou Counselling",
-    shortName: "ProjectYou",
-    tagline:
-      "Pluralistic counselling, hypnotherapy, and postnatal support tailored to you.",
-  },
+    brand: {
+      name: "ProjectYou Counselling",
+      shortName: "ProjectYou",
+      tagline:
+        "Pluralistic counselling, hypnotherapy, and postnatal support tailored to you.",
+    },
 
-  contact: {
-    phone: "07709490130",
-    email: "ella@projectyoucounselling.co.uk",
-    city: "Chelmsford",
-    address: "Chelmsford, Essex, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "07709490130",
+      email: "ella@projectyoucounselling.co.uk",
+      city: "Chelmsford",
+      address: "Chelmsford, Essex, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Ella",
-    title: "Psychotherapist, Counsellor & Hypnotherapist",
-    image:
-      "https://static.wixstatic.com/media/64990e_22a47a5db23043bd95210714e13d2a84~mv2.jpg/v1/fill/w_400,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_20190709_210835_188.jpg",
-    cta: {
-      text: "Learn more about Ella",
-      href: "https://www.projectyoucounselling.co.uk/about-me",
+    therapist: {
+      name: "Ella",
+      title: "Psychotherapist, Counsellor & Hypnotherapist",
+      image:
+        "https://static.wixstatic.com/media/64990e_22a47a5db23043bd95210714e13d2a84~mv2.jpg/v1/fill/w_400,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_20190709_210835_188.jpg",
+      cta: {
+        text: "Learn more about Ella",
+        href: "https://www.projectyoucounselling.co.uk/about-me",
+      },
     },
   },
-},
-"daylily-therapy": {
-  slug: "daylily-therapy",
+  "daylily-therapy": {
+    slug: "daylily-therapy",
 
-  brand: {
-    name: "Daylily Therapy",
-    shortName: "Daylily Therapy",
-    tagline:
-      "Person-centred counselling offering a calm, supportive space to explore your feelings and wellbeing.",
-  },
+    brand: {
+      name: "Daylily Therapy",
+      shortName: "Daylily Therapy",
+      tagline:
+        "Person-centred counselling offering a calm, supportive space to explore your feelings and wellbeing.",
+    },
 
-  contact: {
-    phone: "07935454703",
-    email: "claire@daylilytherapy.co.uk", // Unverified placeholder
-    city: "United Kingdom",
-    address: "United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "07935454703",
+      email: "claire@daylilytherapy.co.uk", // Unverified placeholder
+      city: "United Kingdom",
+      address: "United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Claire",
-    title: "Qualified Person-Centred Counsellor",
-    image: "https://static.wixstatic.com/media/9238ea_d6ac4c3dc79b4700992dad7258b3e66c~mv2.jpeg/v1/fill/w_189,h_251,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_0785.jpeg", // Add the direct therapist photo URL
-    cta: {
-      text: "Learn more about Claire",
-      href: "https://www.daylilytherapy.co.uk/about-me",
+    therapist: {
+      name: "Claire",
+      title: "Qualified Person-Centred Counsellor",
+      image: "https://static.wixstatic.com/media/9238ea_d6ac4c3dc79b4700992dad7258b3e66c~mv2.jpeg/v1/fill/w_189,h_251,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_0785.jpeg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Claire",
+        href: "https://www.daylilytherapy.co.uk/about-me",
+      },
     },
   },
-},
-"voice-counselling": {
-  slug: "voice-counselling",
+  "voice-counselling": {
+    slug: "voice-counselling",
 
-  brand: {
-    name: "Voice Counselling",
-    shortName: "Voice Counselling",
-    tagline:
-      "Integrative counselling and psychotherapy providing a safe, welcoming space to work through anxiety, depression, stress, and self-esteem challenges.",
-  },
+    brand: {
+      name: "Voice Counselling",
+      shortName: "Voice Counselling",
+      tagline:
+        "Integrative counselling and psychotherapy providing a safe, welcoming space to work through anxiety, depression, stress, and self-esteem challenges.",
+    },
 
-  contact: {
-    phone: "07704303661",
-    email: "kerryselvage@gmail.com", // Placeholder; unverified
-    city: "Bristol",
-    address: "Bristol, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "07704303661",
+      email: "kerryselvage@gmail.com", // Placeholder; unverified
+      city: "Bristol",
+      address: "Bristol, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Kerry Selvage",
-    title: "Counsellor & Psychotherapist",
-    image: "https://static.wixstatic.com/media/35af72_916606159a9b46868ed33efab07f771c~mv2.jpg/v1/crop/x_0,y_0,w_2840,h_2767/fill/w_208,h_203,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/website%20photo_edited.jpg", // Add the direct therapist photo URL
-    cta: {
-      text: "Learn more about Kerry Selvage",
-      href: "https://www.voicecounselling.co.uk/",
+    therapist: {
+      name: "Kerry Selvage",
+      title: "Counsellor & Psychotherapist",
+      image: "https://static.wixstatic.com/media/35af72_916606159a9b46868ed33efab07f771c~mv2.jpg/v1/crop/x_0,y_0,w_2840,h_2767/fill/w_208,h_203,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/website%20photo_edited.jpg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Kerry Selvage",
+        href: "https://www.voicecounselling.co.uk/",
+      },
     },
   },
-},
-"aspire-counselling": {
-  slug: "aspire-counselling",
+  "aspire-counselling": {
+    slug: "aspire-counselling",
 
-  brand: {
-    name: "Aspire Counselling",
-    shortName: "Aspire Counselling",
-    tagline:
-      "Person-centred counselling for adults, couples, and young people in a safe and supportive environment.",
-  },
+    brand: {
+      name: "Aspire Counselling",
+      shortName: "Aspire Counselling",
+      tagline:
+        "Person-centred counselling for adults, couples, and young people in a safe and supportive environment.",
+    },
 
-  contact: {
-    phone: "07800843054",
-    email: "audreysandilands@gmail.com", // Placeholder; unverified
-    city: "Malpas",
-    address: "Malpas, Cheshire, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "07800843054",
+      email: "audreysandilands@gmail.com", // Placeholder; unverified
+      city: "Malpas",
+      address: "Malpas, Cheshire, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Audrey Sandilands",
-    title: "Qualified Person-Centred Counsellor",
-    image: "https://www.aspire-counselling.com/uploads/8/4/3/2/84326096/published/audrey-linkedin-image.png?1491341807", // Add the direct therapist photo URL
-    cta: {
-      text: "Learn more about Audrey Sandilands",
-      href: "https://www.aspire-counselling.com/",
+    therapist: {
+      name: "Audrey Sandilands",
+      title: "Qualified Person-Centred Counsellor",
+      image: "https://www.aspire-counselling.com/uploads/8/4/3/2/84326096/published/audrey-linkedin-image.png?1491341807", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Audrey Sandilands",
+        href: "https://www.aspire-counselling.com/",
+      },
     },
   },
-},
-"naomi-bateren-therapy": {
-  slug: "naomi-bateren-therapy",
+  "naomi-bateren-therapy": {
+    slug: "naomi-bateren-therapy",
 
-  brand: {
-    name: "Naomi Bateren Therapy",
-    shortName: "Naomi Bateren Therapy",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Naomi Bateren Therapy",
+      shortName: "Naomi Bateren Therapy",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "07864821243",
-    email: "hello@naomibaterentherapy.com",
-    city: "Liverpool",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "07864821243",
+      email: "hello@naomibaterentherapy.com",
+      city: "Liverpool",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Naomi Bateren",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://static.wixstatic.com/media/a498ed_f880f4bdd82e49459f22533027391b96~mv2.jpg/v1/fill/w_302,h_302,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20250909_195155_edited.jpg", // Add the direct therapist photo URL
-    cta: {
-      text: "Learn more about Naomi Bateren",
-      href: "https://www.naomibaterentherapy.com/about-me",
+    therapist: {
+      name: "Naomi Bateren",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://static.wixstatic.com/media/a498ed_f880f4bdd82e49459f22533027391b96~mv2.jpg/v1/fill/w_302,h_302,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20250909_195155_edited.jpg", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Naomi Bateren",
+        href: "https://www.naomibaterentherapy.com/about-me",
+      },
     },
   },
-},
-"counsellinginhull-therapy": {
-  slug: "naomi-bateren-therapy",
+  "counsellinginhull-therapy": {
+    slug: "naomi-bateren-therapy",
 
-  brand: {
-    name: "Alex Carling",
-    shortName: "Alex Carling",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Alex Carling",
+      shortName: "Alex Carling",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+44 7980 291528",
-    email: "alex@counsellinginhull.co.uk",
-    city: "United Kindom",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+44 7980 291528",
+      email: "alex@counsellinginhull.co.uk",
+      city: "United Kindom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Alex Carling",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://images.squarespace-cdn.com/content/v1/5eece33d97a944698c0eb555/fc77075c-baa7-4a63-9f95-4ab9ed456944/Alex+Carling+%7C+Psycotherapist+%7C+Brainspotting+Practitioner?format=1000w", // Add the direct therapist photo URL
-    cta: {
-      text: "Learn more about Alex Therapy",
-      href: "https://www.counsellinginhull.co.uk/",
+    therapist: {
+      name: "Alex Carling",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://images.squarespace-cdn.com/content/v1/5eece33d97a944698c0eb555/fc77075c-baa7-4a63-9f95-4ab9ed456944/Alex+Carling+%7C+Psycotherapist+%7C+Brainspotting+Practitioner?format=1000w", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Alex Therapy",
+        href: "https://www.counsellinginhull.co.uk/",
+      },
     },
   },
-},
-"julia-yates-counselling": {
-  slug: "Julia Yates Counselling",
+  "julia-yates-counselling": {
+    slug: "Julia Yates Counselling",
 
-  brand: {
-    name: "Julia Yates",
-    shortName: "Julia",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Julia Yates",
+      shortName: "Julia",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+44 7462 363434",
-    email: "lancastercreativecounselling@gmail.com@outlook.com",
-    city: "United Kindom",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+44 7462 363434",
+      email: "lancastercreativecounselling@gmail.com@outlook.com",
+      city: "United Kindom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Julia Yates",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/448095605_981734980622448_2320251039324427066_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=wQVEF9T6u2cQ7kNvwHd1Djg&_nc_oc=AdpDfmmQSPtRxxMTVnjJn_CxX9uCD0HzaSNnh9-bx9iRMg1xy0dT5-QrfzJUz9YAfS8&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&_nc_gid=oAs3zZLIXzqk6Y6LYeic0Q&_nc_ss=792a8&oh=00_AQPTKNuu8qINeO7P8xiSzUNphBeSo4TDkI_YDE8E4ZlZgw&oe=6AE5D909", // Add the direct therapist photo URL
-    cta: {
-      text: "Learn more about Julia Therapy",
-      href: "https://www.facebook.com/JuliaYatesCounsellorLancaster",
+    therapist: {
+      name: "Julia Yates",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/448095605_981734980622448_2320251039324427066_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=wQVEF9T6u2cQ7kNvwHd1Djg&_nc_oc=AdpDfmmQSPtRxxMTVnjJn_CxX9uCD0HzaSNnh9-bx9iRMg1xy0dT5-QrfzJUz9YAfS8&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&_nc_gid=oAs3zZLIXzqk6Y6LYeic0Q&_nc_ss=792a8&oh=00_AQPTKNuu8qINeO7P8xiSzUNphBeSo4TDkI_YDE8E4ZlZgw&oe=6AE5D909", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Julia Therapy",
+        href: "https://www.facebook.com/JuliaYatesCounsellorLancaster",
+      },
     },
   },
-},
-"urshala-therapy": {
-  slug: "Ursula Balikowska",
+  "urshala-therapy": {
+    slug: "Ursula Balikowska",
 
-  brand: {
-    name: "Ursula Balikowska",
-    shortName: "Ursula",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Ursula Balikowska",
+      shortName: "Ursula",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+44 123456789",
-    email: "urshala@gmail.com@outlook.com",
-    city: "United Kindom",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+44 123456789",
+      email: "urshala@gmail.com@outlook.com",
+      city: "United Kindom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Ursula Balikowska",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/492995190_1235253541936999_8610312473131594058_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=oMg0hBUumi8Q7kNvwGocKTW&_nc_oc=AdrkCfLE7Bt46wSXw8CXmlw6xajj6O1pvQi8DJBytMzIqaWaKpoby9a7gbuCKo5zGIw&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&_nc_gid=686rpOipS34tI4RaMRxcwg&_nc_ss=792a8&oh=00_AQOz9ar5X1hTcEh26fb-jqDigqMj6x2msoOIWUARSfe6CA&oe=6AE5F0F7", // Add the direct therapist photo URL
-    cta: {
-      text: "Learn more about Urshala Therapy",
-      href: "https://www.facebook.com/polskipsychoterapeutawleeds/",
+    therapist: {
+      name: "Ursula Balikowska",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/492995190_1235253541936999_8610312473131594058_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=oMg0hBUumi8Q7kNvwGocKTW&_nc_oc=AdrkCfLE7Bt46wSXw8CXmlw6xajj6O1pvQi8DJBytMzIqaWaKpoby9a7gbuCKo5zGIw&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&_nc_gid=686rpOipS34tI4RaMRxcwg&_nc_ss=792a8&oh=00_AQOz9ar5X1hTcEh26fb-jqDigqMj6x2msoOIWUARSfe6CA&oe=6AE5F0F7", // Add the direct therapist photo URL
+      cta: {
+        text: "Learn more about Urshala Therapy",
+        href: "https://www.facebook.com/polskipsychoterapeutawleeds/",
+      },
     },
   },
-},
-"inspire-life-therapy": {
-  slug: "Inspire Life Therapy",
+  "inspire-life-therapy": {
+    slug: "Inspire Life Therapy",
 
-  brand: {
-    name: "Inspire Life Therapy",
-    shortName: "Ingrid",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Inspire Life Therapy",
+      shortName: "Ingrid",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+44 123456789",
-    email:"Ingrid@gmail.com@outlook.com",
-    city: "United Kindom",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+44 123456789",
+      email: "Ingrid@gmail.com@outlook.com",
+      city: "United Kindom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Krista",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://inspirelifetherapy.co.uk/wp-content/uploads/2023/03/ingrid-steele-photo-march-2023-rotated.jpg",
-    cta: {
-      text: "Learn more about Ingrid Therapy",
-      href: "https://inspirelifetherapy.co.uk/",
+    therapist: {
+      name: "Krista",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://inspirelifetherapy.co.uk/wp-content/uploads/2023/03/ingrid-steele-photo-march-2023-rotated.jpg",
+      cta: {
+        text: "Learn more about Ingrid Therapy",
+        href: "https://inspirelifetherapy.co.uk/",
+      },
     },
   },
-},
-"therapy-with-ting": {
-  slug: "Therapy With Ting",
+  "therapy-with-ting": {
+    slug: "Therapy With Ting",
 
-  brand: {
-    name: "Ting Therapy",
-    shortName: "Ting Therapy",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Ting Therapy",
+      shortName: "Ting Therapy",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+44 123456789",
-    email:"ting@gmail.com@outlook.com",
-    city: "United Kindom",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+44 123456789",
+      email: "ting@gmail.com@outlook.com",
+      city: "United Kindom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Ting Lee",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://therapywithting.com/wp-content/uploads/2026/03/img_0954.jpg",
-    cta: {
-      text: "Learn more about Therapy With Ting",
-      href: "https://therapywithting.com/about-me/",
+    therapist: {
+      name: "Ting Lee",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://therapywithting.com/wp-content/uploads/2026/03/img_0954.jpg",
+      cta: {
+        text: "Learn more about Therapy With Ting",
+        href: "https://therapywithting.com/about-me/",
+      },
     },
   },
-},
-"catherine-parker-therapy": {
-  slug: "Therapy With Catherine",
+  "catherine-parker-therapy": {
+    slug: "Therapy With Catherine",
 
-  brand: {
-    name: "Catherine Therapy",
-    shortName: "Catherine Therapy",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Catherine Therapy",
+      shortName: "Catherine Therapy",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+44 123456789",
-    email:"Catherine@gmail.com@outlook.com",
-    city: "United Kindom",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+44 123456789",
+      email: "Catherine@gmail.com@outlook.com",
+      city: "United Kindom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Catherine Parker",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://static.wixstatic.com/media/ec2fea_ebc43861435a4d9892ceb88674ad5435~mv2.jpg/v1/fill/w_599,h_446,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ec2fea_ebc43861435a4d9892ceb88674ad5435~mv2.jpg",
-    cta: {
-      text: "Learn more about Therapy With Catherine",
-      href: "http://www.catherineparkertherapy.co.uk/",
+    therapist: {
+      name: "Catherine Parker",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://static.wixstatic.com/media/ec2fea_ebc43861435a4d9892ceb88674ad5435~mv2.jpg/v1/fill/w_599,h_446,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ec2fea_ebc43861435a4d9892ceb88674ad5435~mv2.jpg",
+      cta: {
+        text: "Learn more about Therapy With Catherine",
+        href: "http://www.catherineparkertherapy.co.uk/",
+      },
     },
   },
-},
-"dr-netalie-psychotherapy": {
-  slug: "Therapy With Catherine",
+  "dr-netalie-psychotherapy": {
+    slug: "Therapy With Catherine",
 
-  brand: {
-    name: "Dr. Netalie Shloim Therapy",
-    shortName: "Dr. Netalie Shloim",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Dr. Netalie Shloim Therapy",
+      shortName: "Dr. Netalie Shloim",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+44 123456789",
-    email:"Netalie@gmail.com@outlook.com",
-    city: "United Kindom",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+44 123456789",
+      email: "Netalie@gmail.com@outlook.com",
+      city: "United Kindom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Dr. Netalie Shloim",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://static.wixstatic.com/media/f9d4d6_9434b3cc70714887b6fff3e158d9e74d~mv2.png/v1/crop/x_939,y_0,w_4656,h_4000/fill/w_681,h_585,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Profile-pic-2_2Small.png",
-    cta: {
-      text: "Learn more about Dr. Netalie Shloim",
-      href: "https://www.drnetaliepsychotherapy.com/about",
+    therapist: {
+      name: "Dr. Netalie Shloim",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://static.wixstatic.com/media/f9d4d6_9434b3cc70714887b6fff3e158d9e74d~mv2.png/v1/crop/x_939,y_0,w_4656,h_4000/fill/w_681,h_585,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Profile-pic-2_2Small.png",
+      cta: {
+        text: "Learn more about Dr. Netalie Shloim",
+        href: "https://www.drnetaliepsychotherapy.com/about",
+      },
     },
   },
-},
-"sensi-walters-therapy": {
-  slug: "Melia May Therapy",
+  "sensi-walters-therapy": {
+    slug: "Melia May Therapy",
 
-  brand: {
-    name: "Melia May Therapy",
-    shortName: "Sensi Walters",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Melia May Therapy",
+      shortName: "Sensi Walters",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+44 123456789",
-    email:"sensi@gmail.com@outlook.com",
-    city: "United Kindom",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+44 123456789",
+      email: "sensi@gmail.com@outlook.com",
+      city: "United Kindom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Sensi Walter",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ShiGRoaXSKpzAswGPsneVeDOUhmqqx9TxLfBoZ6x49p6hGDJTf6Fv-Mvee15AlW_h3eLO5DAyAoAhRxgc8lcREwh4ywc2JfYLsWOsXbBNVGPjRCKnxO13H5QxvmjuvSJd2JzfmvWw8rfFS=w224-h298-n-k-no",
-    cta: {
-      text: "Learn more about Sensi Walter",
-      href: "https://www.accph.org.uk/uploads/curriculum-vitae/1692-cv-1671035132.pdf",
+    therapist: {
+      name: "Sensi Walter",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ShiGRoaXSKpzAswGPsneVeDOUhmqqx9TxLfBoZ6x49p6hGDJTf6Fv-Mvee15AlW_h3eLO5DAyAoAhRxgc8lcREwh4ywc2JfYLsWOsXbBNVGPjRCKnxO13H5QxvmjuvSJd2JzfmvWw8rfFS=w224-h298-n-k-no",
+      cta: {
+        text: "Learn more about Sensi Walter",
+        href: "https://www.accph.org.uk/uploads/curriculum-vitae/1692-cv-1671035132.pdf",
+      },
     },
   },
-},
-"counselling-leicester": {
-  slug: "Counselling Leicester",
+  "counselling-leicester": {
+    slug: "Counselling Leicester",
 
-  brand: {
-    name: "Counselling & Psychotherapy in Leicester",
-    shortName: "Leicester",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Counselling & Psychotherapy in Leicester",
+      shortName: "Leicester",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+44 123456789",
-    email:"carolbaker1066@gmail.com@outlook.com",
-    city: "United Kindom",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+44 123456789",
+      email: "carolbaker1066@gmail.com@outlook.com",
+      city: "United Kindom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Carol Baker",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH9tg4nTlEDqbXQUwolpdbPXK5QVjpoZbRvlSPxtCU_RJzY6Eav23mb6UP&s=10",
-    cta: {
-      text: "Learn more about Carol Baker",
-      href: "https://www.counsellingleicester.co.uk/carol-baker",
+    therapist: {
+      name: "Carol Baker",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH9tg4nTlEDqbXQUwolpdbPXK5QVjpoZbRvlSPxtCU_RJzY6Eav23mb6UP&s=10",
+      cta: {
+        text: "Learn more about Carol Baker",
+        href: "https://www.counsellingleicester.co.uk/carol-baker",
+      },
     },
   },
-},
-"ontic-psychology": {
-  slug: "Counselling Leicester",
+  "ontic-psychology": {
+    slug: "Counselling Leicester",
 
-  brand: {
-    name: "Ontic-Psychology",
-    shortName: "ontic-psychology",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Ontic-Psychology",
+      shortName: "ontic-psychology",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+44 123456789",
-    email:"Candice@gmail.com@outlook.com",
-    city: "United Kindom",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+44 123456789",
+      email: "Candice@gmail.com@outlook.com",
+      city: "United Kindom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Dr Candice O'Neil",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvzCbn_LSbIFiYDWgXwZzbp-Auvvf6TTILn5WobzF8nQ0Xfo3X1LVbsm4&s=10",
-    cta: {
-      text: "Learn more about Dr Candice O'Neil",
-      href: "https://www.onticpsychology.com/",
+    therapist: {
+      name: "Dr Candice O'Neil",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvzCbn_LSbIFiYDWgXwZzbp-Auvvf6TTILn5WobzF8nQ0Xfo3X1LVbsm4&s=10",
+      cta: {
+        text: "Learn more about Dr Candice O'Neil",
+        href: "https://www.onticpsychology.com/",
+      },
     },
   },
-},
-"jamie-doherty-therapy": {
-  slug: "Jamie Doherty Counselling",
+  "jamie-doherty-therapy": {
+    slug: "Jamie Doherty Counselling",
 
-  brand: {
-    name: "Jamie Doherty Counselling",
-    shortName: "Jamie Doherty",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Jamie Doherty Counselling",
+      shortName: "Jamie Doherty",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+44 123456789",
-    email:"jamie@gmail.com@outlook.com",
-    city: "United Kindom",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+44 123456789",
+      email: "jamie@gmail.com@outlook.com",
+      city: "United Kindom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Jamie Doherty",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://static.wixstatic.com/media/f1f718_49f1fdeed25f4a4aadbb7155d697f518~mv2.jpg/v1/crop/x_133,y_0,w_622,h_1145/fill/w_622,h_1144,al_c,q_85,enc_avif,quality_auto/hero_optimised_edited.jpg",
-    cta: {
-      text: "Learn more about Jamie Doherty",
-      href: "https://www.jdoherty.co.uk/",
+    therapist: {
+      name: "Jamie Doherty",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://static.wixstatic.com/media/f1f718_49f1fdeed25f4a4aadbb7155d697f518~mv2.jpg/v1/crop/x_133,y_0,w_622,h_1145/fill/w_622,h_1144,al_c,q_85,enc_avif,quality_auto/hero_optimised_edited.jpg",
+      cta: {
+        text: "Learn more about Jamie Doherty",
+        href: "https://www.jdoherty.co.uk/",
+      },
     },
   },
-},
-"dr-yaakov-shugarman": {
-  slug: "Individualized Psychological Services",
+  "dr-yaakov-shugarman": {
+    slug: "Individualized Psychological Services",
 
-  brand: {
-    name: "Individualized Psychological Counselling",
-    shortName: "Individualized Psychological",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Individualized Psychological Counselling",
+      shortName: "Individualized Psychological",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+44 123456789",
-    email:"Yaakov@gmail.com@outlook.com",
-    city: "United Kindom",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+44 123456789",
+      email: "Yaakov@gmail.com@outlook.com",
+      city: "United Kindom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Dr. Yaakov Shugarman",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://individualizedpsychologicalservices.com/wp-content/uploads/2018/10/E1C-768x848.jpg",
-    cta: {
-      text: "Learn more about Dr. Yaakov Shugarman",
-      href: "https://individualizedpsychologicalservices.com/about-me/",
+    therapist: {
+      name: "Dr. Yaakov Shugarman",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://individualizedpsychologicalservices.com/wp-content/uploads/2018/10/E1C-768x848.jpg",
+      cta: {
+        text: "Learn more about Dr. Yaakov Shugarman",
+        href: "https://individualizedpsychologicalservices.com/about-me/",
+      },
     },
   },
-},
-"robin-balanced-mind": {
-  slug: "Balance Minds Counselling",
+  "robin-balanced-mind": {
+    slug: "Balance Minds Counselling",
 
-  brand: {
-    name: "Balance Minds Counselling",
-    shortName: "Balance Minds",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Balance Minds Counselling",
+      shortName: "Balance Minds",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+44 123456789",
-    email:"Robin@gmail.com@outlook.com",
-    city: "United Kindom",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+44 123456789",
+      email: "Robin@gmail.com@outlook.com",
+      city: "United Kindom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Robin Blackwell",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://img1.wsimg.com/isteam/ip/d4a23480-0c84-46de-974a-da9962f45e23/PHOTOS.jpg/:/cr=t:5.57%25,l:0%25,w:100%25,h:88.85%25/rs=w:1200,h:1600,cg:true",
-    cta: {
-      text: "Learn more about Robin Blackwell",
-      href: "https://www.magnoliaflowercounseling.com/",
+    therapist: {
+      name: "Robin Blackwell",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://img1.wsimg.com/isteam/ip/d4a23480-0c84-46de-974a-da9962f45e23/PHOTOS.jpg/:/cr=t:5.57%25,l:0%25,w:100%25,h:88.85%25/rs=w:1200,h:1600,cg:true",
+      cta: {
+        text: "Learn more about Robin Blackwell",
+        href: "https://www.magnoliaflowercounseling.com/",
+      },
     },
   },
-},
-"jonathan-mack-counseling": {
-  slug: "Jonathan Mack Counselling",
+  "jonathan-mack-counseling": {
+    slug: "Jonathan Mack Counselling",
 
-  brand: {
-    name: "Jonathan Mack Counselling",
-    shortName: "Jonathan Mack",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Jonathan Mack Counselling",
+      shortName: "Jonathan Mack",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+44 123456789",
-    email:"Jonathan@gmail.com@outlook.com",
-    city: "United Kindom",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+44 123456789",
+      email: "Jonathan@gmail.com@outlook.com",
+      city: "United Kindom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Jonathan Mack",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://lh3.googleusercontent.com/a-/ALV-UjUEfldM_KxP797APxt1ZHt2-poVoIgDaJBeWkCCPCBne-jL01JSrw=s240-p-k-rw-no",
-    cta: {
-      text: "Learn more about Jonathan Mack",
-      href: "https://jonathanmackcounseling.com/",
+    therapist: {
+      name: "Jonathan Mack",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://lh3.googleusercontent.com/a-/ALV-UjUEfldM_KxP797APxt1ZHt2-poVoIgDaJBeWkCCPCBne-jL01JSrw=s240-p-k-rw-no",
+      cta: {
+        text: "Learn more about Jonathan Mack",
+        href: "https://jonathanmackcounseling.com/",
+      },
     },
   },
-},
-"foster-counseling": {
-  slug: "Zoe Foster Counselling",
+  "foster-counseling": {
+    slug: "Zoe Foster Counselling",
 
-  brand: {
-    name: "Zoe Foster Counselling",
-    shortName: "The Foster",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Zoe Foster Counselling",
+      shortName: "The Foster",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+44 123456789",
-    email:"Foster@gmail.com@outlook.com",
-    city: "United Kindom",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+44 123456789",
+      email: "Foster@gmail.com@outlook.com",
+      city: "United Kindom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Zoe Foster",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://static.wixstatic.com/media/b2fe6e_986dbd5efa884775b1037aea5f06346b.jpg/v1/fill/w_280,h_265,al_c,lg_1,q_80,enc_avif,quality_auto/b2fe6e_986dbd5efa884775b1037aea5f06346b.jpg",
-    cta: {
-      text: "Learn more about Zoe Foster",
-      href: "https://www.thefosterpractice.co.uk/about",
+    therapist: {
+      name: "Zoe Foster",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://static.wixstatic.com/media/b2fe6e_986dbd5efa884775b1037aea5f06346b.jpg/v1/fill/w_280,h_265,al_c,lg_1,q_80,enc_avif,quality_auto/b2fe6e_986dbd5efa884775b1037aea5f06346b.jpg",
+      cta: {
+        text: "Learn more about Zoe Foster",
+        href: "https://www.thefosterpractice.co.uk/about",
+      },
     },
   },
-},
-"Colette-counseling": {
-  slug: "Colette Butler Counselling",
+  "Colette-counseling": {
+    slug: "Colette Butler Counselling",
 
-  brand: {
-    name: "Colette Butler Counselling",
-    shortName: "Colette Butler-Hartley",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Colette Butler Counselling",
+      shortName: "Colette Butler-Hartley",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+44 123456789",
-    email:"Butler@gmail.com@outlook.com",
-    city: "United Kindom",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+44 123456789",
+      email: "Butler@gmail.com@outlook.com",
+      city: "United Kindom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Colette Butler ",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://static.wixstatic.com/media/97308d_2126d611467648869bea2d616ad89f4f~mv2.jpg/v1/crop/x_0,y_93,w_1034,h_785/fill/w_424,h_322,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/letty%20new_jfif.jpg",
-    cta: {
-      text: "Learn more about Colette Butler",
-      href: "https://www.thegrowthroom.net/about",
+    therapist: {
+      name: "Colette Butler ",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://static.wixstatic.com/media/97308d_2126d611467648869bea2d616ad89f4f~mv2.jpg/v1/crop/x_0,y_93,w_1034,h_785/fill/w_424,h_322,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/letty%20new_jfif.jpg",
+      cta: {
+        text: "Learn more about Colette Butler",
+        href: "https://www.thegrowthroom.net/about",
+      },
     },
   },
-},
-"alicepinion-counseling": {
-  slug: "Alice Counselling",
+  "alicepinion-counseling": {
+    slug: "Alice Counselling",
 
-  brand: {
-    name: " Alice Counselling",
-    shortName: "Head First Talking",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: " Alice Counselling",
+      shortName: "Head First Talking",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+44 123456789",
-    email:"Alice@gmail.com@outlook.com",
-    city: "United Kindom",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+44 123456789",
+      email: "Alice@gmail.com@outlook.com",
+      city: "United Kindom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Alice ",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://static.wixstatic.com/media/9dbe24_7844aa0861e94feebd664e50d28a30fa~mv2.png/v1/fill/w_928,h_526,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screen%20Shot%202021-05-19%20at%2012_48_59.png",
-    cta: {
-      text: "Learn more about Alice",
-      href: "https://www.alicepinion.co.uk/about",
+    therapist: {
+      name: "Alice ",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://static.wixstatic.com/media/9dbe24_7844aa0861e94feebd664e50d28a30fa~mv2.png/v1/fill/w_928,h_526,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screen%20Shot%202021-05-19%20at%2012_48_59.png",
+      cta: {
+        text: "Learn more about Alice",
+        href: "https://www.alicepinion.co.uk/about",
+      },
     },
   },
-},
-"drkarinhart-counseling": {
-  slug: "Dr Karin Counselling",
+  "drkarinhart-counseling": {
+    slug: "Dr Karin Counselling",
 
-  brand: {
-    name: "Dr Karin Counselling",
-    shortName: "Dr Karin Hart",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Dr Karin Counselling",
+      shortName: "Dr Karin Hart",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+1 123456789",
-    email:"Karin@gmail.com@outlook.com",
-    city: "United States",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+1 123456789",
+      email: "Karin@gmail.com@outlook.com",
+      city: "United States",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Dr Karin Hart",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://www.drkarinhart.com/files/1__8_FIX_Crop_PS2.jpg",
-    cta: {
-      text: "Learn more about Dr Karin Hart",
-      href: "https://www.drkarinhart.com/About.html",
+    therapist: {
+      name: "Dr Karin Hart",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://www.drkarinhart.com/files/1__8_FIX_Crop_PS2.jpg",
+      cta: {
+        text: "Learn more about Dr Karin Hart",
+        href: "https://www.drkarinhart.com/About.html",
+      },
     },
   },
-},
-"drlisa-counseling": {
-  slug: "Dr Lisa Counselling",
+  "drlisa-counseling": {
+    slug: "Dr Lisa Counselling",
 
-  brand: {
-    name: "Dr Lisa Counselling",
-    shortName: "Dr Lisa",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Dr Lisa Counselling",
+      shortName: "Dr Lisa",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+1 123456789",
-    email:"lisa@gmail.com@outlook.com",
-    city: "United States",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+1 123456789",
+      email: "lisa@gmail.com@outlook.com",
+      city: "United States",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Dr Lisa E. Harris, Ph.D",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://drlisaharris.com/index_files/image002.jpg",
-    cta: {
-      text: "Learn more about Dr Lisa",
-      href: "https://drlisaharris.com/",
+    therapist: {
+      name: "Dr Lisa E. Harris, Ph.D",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://drlisaharris.com/index_files/image002.jpg",
+      cta: {
+        text: "Learn more about Dr Lisa",
+        href: "https://drlisaharris.com/",
+      },
     },
   },
-},
-"katrina-schofield-counseling": {
-  slug: "Katrina Schofield Counselling",
+  "katrina-schofield-counseling": {
+    slug: "Katrina Schofield Counselling",
 
-  brand: {
-    name: "Katrina Schofield Counselling",
-    shortName: "Katrina Schofield",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Katrina Schofield Counselling",
+      shortName: "Katrina Schofield",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+44 123456789",
-    email:"katrina@gmail.com@outlook.com",
-    city: "United Kingdom",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+44 123456789",
+      email: "katrina@gmail.com@outlook.com",
+      city: "United Kingdom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Katrina Schofield",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://scontent.fixc1-4.fna.fbcdn.net/v/t39.30808-6/608973150_827097053666310_9064965800123549932_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x1920&ctp=s640x640&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_ohc=r6azwxsfhRQQ7kNvwE3fatx&_nc_oc=AdqioAF4458v6c4mKe5002koHEN_zp__Imhi9yOQy1Fl665UgkaxJ2EVQQPwgjrQUwE&_nc_zt=23&_nc_ht=scontent.fixc1-4.fna&_nc_gid=trtFcZlqbQyKzUrqAxxY4g&_nc_ss=7b2a8&oh=00_AQRNSVp4BTKn9Ag4Oc5GIcT9nshnapkLSv2VwU0_pQ5nWg&oe=6AEA25D8",
-    cta: {
-      text: "Learn more about Katrina",
-      href: "https://www.facebook.com/profile.php?id=100090980673603",
+    therapist: {
+      name: "Katrina Schofield",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://scontent.fixc1-4.fna.fbcdn.net/v/t39.30808-6/608973150_827097053666310_9064965800123549932_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x1920&ctp=s640x640&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_ohc=r6azwxsfhRQQ7kNvwE3fatx&_nc_oc=AdqioAF4458v6c4mKe5002koHEN_zp__Imhi9yOQy1Fl665UgkaxJ2EVQQPwgjrQUwE&_nc_zt=23&_nc_ht=scontent.fixc1-4.fna&_nc_gid=trtFcZlqbQyKzUrqAxxY4g&_nc_ss=7b2a8&oh=00_AQRNSVp4BTKn9Ag4Oc5GIcT9nshnapkLSv2VwU0_pQ5nWg&oe=6AEA25D8",
+      cta: {
+        text: "Learn more about Katrina",
+        href: "https://www.facebook.com/profile.php?id=100090980673603",
+      },
     },
   },
-},
-"melanie-mcQuade-counseling": {
-  slug: "Melanie McQuade Counselling",
+  "melanie-mcQuade-counseling": {
+    slug: "Melanie McQuade Counselling",
 
-  brand: {
-    name: "Melanie McQuade Counselling",
-    shortName: "Melanie McQuade",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Melanie McQuade Counselling",
+      shortName: "Melanie McQuade",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+44 123456789",
-    email:"Melanie@gmail.com@outlook.com",
-    city: "United Kingdom",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United Kingdom",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+44 123456789",
+      email: "Melanie@gmail.com@outlook.com",
+      city: "United Kingdom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United Kingdom",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Melanie McQuade",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/547010260_1373163487604261_2213593074630674587_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Ufl5jzAEXo4Q7kNvwEPj8uV&_nc_oc=Adp2u9g3acO-wF-jutBQGj4dPYbiJ8AW0nFAHCRZYODropq5j9AWiq8j21f1PBFJ_-M&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&_nc_gid=i2U0E2Q0YsY9qrD4igwluw&_nc_ss=792a8&oh=00_AQQ9PlHRkh64AmUh04VVUgR5imAmpgU3Hb7rzpwbuFY4VQ&oe=6AEA3ECA",
-    cta: {
-      text: "Learn more about Melanie",
-      href: "https://www.facebook.com/Counsellng",
+    therapist: {
+      name: "Melanie McQuade",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/547010260_1373163487604261_2213593074630674587_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Ufl5jzAEXo4Q7kNvwEPj8uV&_nc_oc=Adp2u9g3acO-wF-jutBQGj4dPYbiJ8AW0nFAHCRZYODropq5j9AWiq8j21f1PBFJ_-M&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&_nc_gid=i2U0E2Q0YsY9qrD4igwluw&_nc_ss=792a8&oh=00_AQQ9PlHRkh64AmUh04VVUgR5imAmpgU3Hb7rzpwbuFY4VQ&oe=6AEA3ECA",
+      cta: {
+        text: "Learn more about Melanie",
+        href: "https://www.facebook.com/Counsellng",
+      },
     },
   },
-},
-"david-clemons-counseling": {
-  slug: "David Clemons Counselling",
+  "david-clemons-counseling": {
+    slug: "David Clemons Counselling",
 
-  brand: {
-    name: "David Clemons Counselling",
-    shortName: "David Clemons",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "David Clemons Counselling",
+      shortName: "David Clemons",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+1 123456789",
-    email:"David@gmail.com@outlook.com",
-    city: "United States",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+1 123456789",
+      email: "David@gmail.com@outlook.com",
+      city: "United States",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "David Clemons",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://photos.psychologytoday.com/fa5df3a9-9a85-4526-a2cf-a0815a5d8eae/1/320x400.jpeg",
-    cta: {
-      text: "Learn more about David",
-      href: "https://www.davidpsyd.com/about",
+    therapist: {
+      name: "David Clemons",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://photos.psychologytoday.com/fa5df3a9-9a85-4526-a2cf-a0815a5d8eae/1/320x400.jpeg",
+      cta: {
+        text: "Learn more about David",
+        href: "https://www.davidpsyd.com/about",
+      },
     },
   },
-},
-"christine-hall-counseling": {
-  slug: "Dr. Christine Hall Counselling",
+  "christine-hall-counseling": {
+    slug: "Dr. Christine Hall Counselling",
 
-  brand: {
-    name: "Dr. Christine Hall Counselling",
-    shortName: "Dr. Christine Hall",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Dr. Christine Hall Counselling",
+      shortName: "Dr. Christine Hall",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+1 123456789",
-    email:"christine@gmail.com@outlook.com",
-    city: "United States",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+1 123456789",
+      email: "christine@gmail.com@outlook.com",
+      city: "United States",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Dr. Christine Hall",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://psidirectory.com/media/cache/medium/custom/domain_1/image_files/980_photo_27544.jpg",
-    cta: {
-      text: "Learn more about Dr. Christine",
-      href: "http://christinehallaustin.com/about-dr-christine-hall/",
+    therapist: {
+      name: "Dr. Christine Hall",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://psidirectory.com/media/cache/medium/custom/domain_1/image_files/980_photo_27544.jpg",
+      cta: {
+        text: "Learn more about Dr. Christine",
+        href: "http://christinehallaustin.com/about-dr-christine-hall/",
+      },
     },
   },
-},
-"sara-iannaco-counseling": {
-  slug: "Sara Iannaco Counselling",
+  "sara-iannaco-counseling": {
+    slug: "Sara Iannaco Counselling",
 
-  brand: {
-    name: "Sara Iannaco Counselling",
-    shortName: "Sara Iannaco",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Sara Iannaco Counselling",
+      shortName: "Sara Iannaco",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+1 123456789",
-    email:"sara@gmail.com@outlook.com",
-    city: "United States",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+1 123456789",
+      email: "sara@gmail.com@outlook.com",
+      city: "United States",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Sara Iannaco",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://photos.psychologytoday.com/543ff746-46cd-11ea-a6ad-06142c356176/2/320x400.jpeg",
-    cta: {
-      text: "Learn more about Sara",
-      href: "https://www.saramft.com/about-me",
+    therapist: {
+      name: "Sara Iannaco",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://photos.psychologytoday.com/543ff746-46cd-11ea-a6ad-06142c356176/2/320x400.jpeg",
+      cta: {
+        text: "Learn more about Sara",
+        href: "https://www.saramft.com/about-me",
+      },
     },
   },
-},
-"peggy-brewer-counseling": {
-  slug: "Dr. Peggy Brewer Counselling",
+  "peggy-brewer-counseling": {
+    slug: "Dr. Peggy Brewer Counselling",
 
-  brand: {
-    name: "Dr. Peggy Brewer Counselling",
-    shortName: "Dr. Peggy Brewer",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Dr. Peggy Brewer Counselling",
+      shortName: "Dr. Peggy Brewer",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+1 123456789",
-    email:"peggy@gmail.com@outlook.com",
-    city: "United States",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+1 123456789",
+      email: "peggy@gmail.com@outlook.com",
+      city: "United States",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Dr. Peggy Brewer",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://photos.psychologytoday.com/a1aeea71-7cf0-4971-8567-edc925241513/1/320x400.jpeg",
-    cta: {
-      text: "Learn more about Dr. Peggy",
-      href: "https://drpeggybrewer.com/",
+    therapist: {
+      name: "Dr. Peggy Brewer",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://photos.psychologytoday.com/a1aeea71-7cf0-4971-8567-edc925241513/1/320x400.jpeg",
+      cta: {
+        text: "Learn more about Dr. Peggy",
+        href: "https://drpeggybrewer.com/",
+      },
     },
   },
-},
-"glenn-hutchinson-counseling": {  
-  slug: "Dr. Glenn Hutchinson Counselling",
+  "glenn-hutchinson-counseling": {
+    slug: "Dr. Glenn Hutchinson Counselling",
 
-  brand: {
-    name: "Dr. Glenn Hutchinson Counselling",
-    shortName: "Dr. Glenn Hutchinson",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Dr. Glenn Hutchinson Counselling",
+      shortName: "Dr. Glenn Hutchinson",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+1 123456789",
-    email:"Glenn@gmail.com@outlook.com",
-    city: "United States",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+1 123456789",
+      email: "Glenn@gmail.com@outlook.com",
+      city: "United States",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Dr. Glenn Hutchinson",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://glennhutchinson.net/wp-content/uploads/2026/07/G60A3994_262X262.jpg",
-    cta: {
-      text: "Learn more about Dr. Glenn",
-      href: "https://glennhutchinson.net/about-me/",
+    therapist: {
+      name: "Dr. Glenn Hutchinson",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://glennhutchinson.net/wp-content/uploads/2026/07/G60A3994_262X262.jpg",
+      cta: {
+        text: "Learn more about Dr. Glenn",
+        href: "https://glennhutchinson.net/about-me/",
+      },
     },
   },
-},
-"nancy-cahir-counseling": {  
-  slug: "Dr Nancy Cahir Counselling",
+  "nancy-cahir-counseling": {
+    slug: "Dr Nancy Cahir Counselling",
 
-  brand: {
-    name: "Dr Nancy Cahir Counselling",
-    shortName: "Dr Nancy Cahir",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Dr Nancy Cahir Counselling",
+      shortName: "Dr Nancy Cahir",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+1 123456789",
-    email:"Nancy@gmail.com@outlook.com",
-    city: "United States",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+1 123456789",
+      email: "Nancy@gmail.com@outlook.com",
+      city: "United States",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Dr Nancy Cahir",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://photos.psychologytoday.com/3bac4749-46cd-11ea-a6ad-06142c356176/8/320x400.jpeg",
-    cta: {
-      text: "Learn more about Dr. Nancy",
-      href: "https://www.nancycahirphd.com/bio.html",
+    therapist: {
+      name: "Dr Nancy Cahir",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://photos.psychologytoday.com/3bac4749-46cd-11ea-a6ad-06142c356176/8/320x400.jpeg",
+      cta: {
+        text: "Learn more about Dr. Nancy",
+        href: "https://www.nancycahirphd.com/bio.html",
+      },
     },
   },
-},
-"richard-schultz-counseling": {  
-  slug: "Dr Richard Schultz Counselling",
+  "richard-schultz-counseling": {
+    slug: "Dr Richard Schultz Counselling",
 
-  brand: {
-    name: "Dr Richard Schultz Counselling",
-    shortName: "Dr Richard Schultz",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Dr Richard Schultz Counselling",
+      shortName: "Dr Richard Schultz",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+1 123456789",
-    email:"Richard@gmail.com@outlook.com",
-    city: "United States",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+1 123456789",
+      email: "Richard@gmail.com@outlook.com",
+      city: "United States",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Dr Richard Schultz",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://static.wixstatic.com/media/5216aa_2580650f535b44888ecfd898b0b1a67b~mv2.jpg/v1/crop/x_0,y_60,w_1053,h_1383/fill/w_370,h_486,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_8694.jpg",
-    cta: {
-      text: "Learn more about Dr. Richard",
-      href: "https://www.drschultz.org/about",
+    therapist: {
+      name: "Dr Richard Schultz",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://static.wixstatic.com/media/5216aa_2580650f535b44888ecfd898b0b1a67b~mv2.jpg/v1/crop/x_0,y_60,w_1053,h_1383/fill/w_370,h_486,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_8694.jpg",
+      cta: {
+        text: "Learn more about Dr. Richard",
+        href: "https://www.drschultz.org/about",
+      },
     },
   },
-},
-"mary-gresham-counseling": {  
-  slug: "Dr Mary Gresham Counselling",
+  "mary-gresham-counseling": {
+    slug: "Dr Mary Gresham Counselling",
 
-  brand: {
-    name: "Dr Mary Gresham Counselling",
-    shortName: "Dr Mary Gresham",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Dr Mary Gresham Counselling",
+      shortName: "Dr Mary Gresham",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+1 123456789",
-    email:"Mary@gmail.com@outlook.com",
-    city: "United States",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+1 123456789",
+      email: "Mary@gmail.com@outlook.com",
+      city: "United States",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Dr Mary Gresham",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5_kk7VBWQIdFgimc33Us3i2A9m9kwNGrMRTn4SNwgxQ&s",
-    cta: {
-      text: "Learn more about Dr. Mary",
-      href: "https://doctorgresham.com/about/",
+    therapist: {
+      name: "Dr Mary Gresham",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5_kk7VBWQIdFgimc33Us3i2A9m9kwNGrMRTn4SNwgxQ&s",
+      cta: {
+        text: "Learn more about Dr. Mary",
+        href: "https://doctorgresham.com/about/",
+      },
     },
   },
-},
-"anna-kaye-counseling": {  
-  slug: "Anna Kaye Counselling",
+  "anna-kaye-counseling": {
+    slug: "Anna Kaye Counselling",
 
-  brand: {
-    name: "Anna Kaye Counselling",
-    shortName: "Anna Kaye",
-    tagline:
-      "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
-  },
+    brand: {
+      name: "Anna Kaye Counselling",
+      shortName: "Anna Kaye",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
 
-  contact: {
-    phone: "+1 123456789",
-    email:"Anna@gmail.com@outlook.com",
-    city: "United States",
-    address:
-      "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
-    bookingUrl: "#contact",
-  },
+    contact: {
+      phone: "+1 123456789",
+      email: "Anna@gmail.com@outlook.com",
+      city: "United States",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United States",
+      bookingUrl: "#contact",
+    },
 
-  therapist: {
-    name: "Anna Kaye",
-    title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG2zTlSw8s9py0p5Kwa9f6A0vPpUkTrNzx80CyDdKzJadkaHbxGVoHhNNX&s=10",
-    cta: {
-      text: "Learn more about Anna Kaye",
-      href: "https://www.annakaye.com/contact.html",
+    therapist: {
+      name: "Anna Kaye",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG2zTlSw8s9py0p5Kwa9f6A0vPpUkTrNzx80CyDdKzJadkaHbxGVoHhNNX&s=10",
+      cta: {
+        text: "Learn more about Anna Kaye",
+        href: "https://www.annakaye.com/contact.html",
+      },
     },
   },
-},
+  "karen-wiseman-counseling": {
+    slug: "Karen Wiseman Counselling",
+
+    brand: {
+      name: "Karen Wiseman Counselling",
+      shortName: "Karen Wiseman",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
+
+    contact: {
+      phone: "+44 123456789",
+      email: "karen@gmail.com@outlook.com",
+      city: "United Kingdom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United Kingdom",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Karen Wiseman",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://www.therapyforthinking.co.uk/images/home/karen.png",
+      cta: {
+        text: "Learn more about Karen Wiseman",
+        href: "https://www.therapyforthinking.co.uk/",
+      },
+    },
+  },
+  "john-mcdermott-counseling": {
+    slug: "John McDermott Counselling",
+
+    brand: {
+      name: "John McDermott Counselling",
+      shortName: "John McDermott",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
+
+    contact: {
+      phone: "+44 123456789",
+      email: "john@gmail.com@outlook.com",
+      city: "United Kingdom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United Kingdom",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "John McDermott",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7n7-rhVS4AnXVk9j2zAQ0iSirZTkiCsOgC_7AeiivHopL-aCRFYb1tDE&s=10",
+      cta: {
+        text: "Learn more about John McDermott",
+        href: "https://northleedstherapy.com/about.html/",
+      },
+    },
+  },
+  "alex-hewitt-counseling": {
+    slug: "Alex Hewitt Counselling",
+
+    brand: {
+      name: "Alex Hewitt Counselling",
+      shortName: "Alex Hewitt",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
+
+    contact: {
+      phone: "+44 123456789",
+      email: "alex@gmail.com@outlook.com",
+      city: "United Kingdom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United Kingdom",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Alex Hewitt",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://alexhewitt.uk/i/a.jpg",
+      cta: {
+        text: "Learn more about Alex Hewitt",
+        href: "https://alexhewitt.uk/",
+      },
+    },
+  },
+  "sue-smith-counseling": {
+    slug: "Sue Smith Counselling",
+
+    brand: {
+      name: "Sue Smith Counselling",
+      shortName: "Sue Smith",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
+
+    contact: {
+      phone: "+44 123456789",
+      email: "sue@gmail.com@outlook.com",
+      city: "United Kingdom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United Kingdom",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Sue Smith",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://static.wixstatic.com/media/da4dcb_3a51019045bf4ad59bac49ba51f3d7ff~mv2.jpg/v1/crop/x_157,y_0,w_1200,h_1200/fill/w_880,h_880,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/da4dcb_3a51019045bf4ad59bac49ba51f3d7ff~mv2.jpg",
+      cta: {
+        text: "Learn more about Sue Smith",
+        href: "https://www.suesmiththerapy.com/",
+      },
+    },
+  },
 };
