@@ -2588,4 +2588,33 @@ export const businesses = {
       },
     },
   },
+  "david-briggs-counseling": {
+    slug: "David Briggs Counselling",
+
+    brand: {
+      name: "David Briggs Counselling",
+      shortName: "David Briggs",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
+
+    contact: {
+      phone: "+44 123456789",
+      email: "david@gmail.com@outlook.com",
+      city: "United Kingdom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United Kingdom",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Dr. David Briggs",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://static.wixstatic.com/media/37679a_d459581cd164478387c8c3f9f7532ea3~mv2.jpg/v1/crop/x_0,y_408,w_2250,h_1557/fill/w_476,h_328,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DAVID_edited.jpg",
+      cta: {
+        text: "Learn more about David Briggs",
+        href: "https://www.davidbriggspsychology.co.uk/about-david",
+      },
+    },
+  },
 };
