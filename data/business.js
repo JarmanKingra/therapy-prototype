@@ -2646,4 +2646,33 @@ export const businesses = {
       },
     },
   },
+  "julie-beavan-counseling": {
+    slug: "Dr Julie Beava Counselling",
+
+    brand: {
+      name: "Dr Julie Beava Counselling",
+      shortName: "Julie Beava",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
+
+    contact: {
+      phone: "+44 123456789",
+      email: "julie@gmail.com@outlook.com",
+      city: "United Kingdom",
+      address:
+        "The Changing Rooms, Sudley Estate and Fields, Agoura Hills, United Kingdom",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Dr Julie Beava",
+      title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
+      image: "https://s3-eu-west-1.amazonaws.com/bupa-images-4b24291849b400303aea648fcd38a718/157805/75e57d34-c033-40ac-902f-26a0ab2ee690.png",
+      cta: {
+        text: "Learn more about Julie",
+        href: "https://www.finder.bupa.co.uk/Consultant/view/157805/dr_julie_beavan_pearson",
+      },
+    },
+  },
 };
