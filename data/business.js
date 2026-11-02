@@ -2647,10 +2647,10 @@ export const businesses = {
     },
   },
   "julie-beavan-counseling": {
-    slug: "Dr Julie Beava Counselling",
+    slug: "Dr Julie Beavan Counselling",
 
     brand: {
-      name: "Dr Julie Beava Counselling",
+      name: "Dr Julie Beavan Counselling",
       shortName: "Julie Beava",
       tagline:
         "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
@@ -2666,7 +2666,7 @@ export const businesses = {
     },
 
     therapist: {
-      name: "Dr Julie Beava",
+      name: "Dr Julie Beavan",
       title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
       image: "https://s3-eu-west-1.amazonaws.com/bupa-images-4b24291849b400303aea648fcd38a718/157805/75e57d34-c033-40ac-902f-26a0ab2ee690.png",
       cta: {
