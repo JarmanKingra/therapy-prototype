@@ -2675,4 +2675,33 @@ export const businesses = {
       },
     },
   },
+  "darren-smyth-counseling": {
+    slug: "Darren Smyth Counselling",
+
+    brand: {
+      name: "Darren Smyth Counselling",
+      shortName: "Darren Smyth",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
+
+    contact: {
+      phone: "+44 7517 380 512",
+      email: "darren@gmail.com@outlook.com",
+      city: "Belfast, County Antrim, BT15",
+      address:
+        "BT15, County Antrim, Belfast, United Kingdom",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Darren Smyth",
+      title: "Registered Integrative Counsellor, Dramatherapist & EMDR Therapist",
+      image: "https://cdn.memiah.co.uk/uploads/counselling-directory.org.uk/104929/default/profile_685b06d9cb13b.jpg?v=1792909611",
+      cta: {
+        text: "Learn more about Darren",
+        href: "https://www.counselling-directory.org.uk/counsellors/darren-smyth",
+      },
+    },
+  },
 };
