@@ -2704,4 +2704,33 @@ export const businesses = {
       },
     },
   },
+  "bryan-blakeny-counseling": {
+    slug: "Bryan Blakeny Counselling",
+
+    brand: {
+      name: "Bryan Blakeny Counselling",
+      shortName: "Blakeny",
+      tagline:
+        "Warm, human psychotherapy and EMDR support for individuals, couples, and families.",
+    },
+
+    contact: {
+      phone: "+1 713-484-9797",
+      email: "Bryan@gmail.com@outlook.com",
+      city: "Houston",
+      address:
+        "2323 S Voss Rd Suite 125E, Houston, TX 77057, United States",
+      bookingUrl: "#contact",
+    },
+
+    therapist: {
+      name: "Bryan Blakeny",
+      title: "Licensed Clinical Social Worker & Certified Anger Resolution Therapist",
+      image: "https://static.wixstatic.com/media/a1a65c_bd39b872b337409cb21a52878248813d~mv2.jpg/v1/fill/w_292,h_372,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20260108_165923.jpg",
+      cta: {
+        text: "Learn more about Bryan",
+        href: "https://www.bryanblakenytherapy.com/about-us",
+      },
+    },
+  },
 };
