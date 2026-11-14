@@ -2733,4 +2733,35 @@ export const businesses = {
       },
     },
   },
+
+"nicholas-shallow-therapy": {
+  slug: "nicholas-shallow-therapy",
+
+  brand: {
+    name: "Nicholas Shallow Therapy",
+    shortName: "Nicholas Shallow",
+    tagline:
+      "A safe, confidential space for children, young people and adults to explore challenges and find a way forward.",
+  },
+
+  contact: {
+    phone: "+44 123456789",
+    email: "Nicholas@gmail.com",
+    city: "Redcar & Norton, United Kingdom",
+    address:
+      "TACT - Therapy And Counselling Teesside, 44 Newcomen Terrace, Redcar, TS10 1DB, United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Nicholas Shallow",
+    title: "UKCP Accredited Children's Mental Health Therapist & Integrative Psychotherapist",
+    image: "https://ukcpprodblobstorage.blob.core.windows.net/ukcp-media/therapistProfilePictures/003240000113QuvAAE/nicholas-shallow.png",
+    cta: {
+      text: "Learn more about Nicholas",
+      href: "https://psychotherapy.org.uk/therapist/Nicholas-Shallow-13QuvAAE",
+    },
+  },
+},
+
 };
