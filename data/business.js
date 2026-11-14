@@ -2764,4 +2764,35 @@ export const businesses = {
   },
 },
 
+
+"serenity-mind-therapy": {
+  slug: "serenity-mind-therapy",
+
+  brand: {
+    name: "Serenity Mind Therapy",
+    shortName: "Serenity Mind",
+    tagline:
+      "A safe, welcoming and non-judgmental space to explore your feelings, understand yourself and work towards positive change.",
+  },
+
+  contact: {
+    phone: "+44 7474 781784",
+    email: "sorcha@gmail.com",
+    city: "United Kingdom",
+    address: "",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Sorcha",
+    title: "Therapist & Counsellor",
+    image: "https://cdn.vectorstock.com/i/500p/30/68/school-psychologist-cartoon-character-vector-58453068.jpg",
+    cta: {
+      text: "Learn more about Sorcha",
+      href: "https://maps.app.goo.gl/E5k5iCw3ayfTGHqJ7",
+    },
+  },
+},
+
+
 };
