@@ -2175,7 +2175,7 @@ export const businesses = {
     therapist: {
       name: "Katrina Schofield",
       title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-      image: "https://scontent.fixc1-4.fna.fbcdn.net/v/t39.30808-6/608973150_827097053666310_9064965800123549932_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x1920&ctp=s640x640&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_ohc=r6azwxsfhRQQ7kNvwE3fatx&_nc_oc=AdqioAF4458v6c4mKe5002koHEN_zp__Imhi9yOQy1Fl665UgkaxJ2EVQQPwgjrQUwE&_nc_zt=23&_nc_ht=scontent.fixc1-4.fna&_nc_gid=trtFcZlqbQyKzUrqAxxY4g&_nc_ss=7b2a8&oh=00_AQRNSVp4BTKn9Ag4Oc5GIcT9nshnapkLSv2VwU0_pQ5nWg&oe=6AEA25D8",
+      image: "https://scontent.fixc5-2.fna.fbcdn.net/v/t39.30808-6/608973150_827097053666310_9064965800123549932_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x1920&ctp=s640x640&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Kun0YZVyQZ0Q7kNvwEc9iMV&_nc_oc=AdqUXmY0XG0wRiTSycVy746XBdNUcHFL2Tq-3pJSozWXtRAilfyDeOY3nsJLsmO3J7I&_nc_zt=23&_nc_ht=scontent.fixc5-2.fna&_nc_gid=vHe7etCQWhoAe6i5EJk1KA&_nc_ss=7b2a8&oh=00_AQQ7UdshVQPSNedVYwNGeDBm4oCbKUQZuffv8W8LL8yAKQ&oe=6AFDEC58",
       cta: {
         text: "Learn more about Katrina",
         href: "https://www.facebook.com/profile.php?id=100090980673603",
@@ -2204,7 +2204,7 @@ export const businesses = {
     therapist: {
       name: "Melanie McQuade",
       title: "Registered Psychotherapist, Dramatherapist & EMDR Therapist",
-      image: "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/547010260_1373163487604261_2213593074630674587_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Ufl5jzAEXo4Q7kNvwEPj8uV&_nc_oc=Adp2u9g3acO-wF-jutBQGj4dPYbiJ8AW0nFAHCRZYODropq5j9AWiq8j21f1PBFJ_-M&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&_nc_gid=i2U0E2Q0YsY9qrD4igwluw&_nc_ss=792a8&oh=00_AQQ9PlHRkh64AmUh04VVUgR5imAmpgU3Hb7rzpwbuFY4VQ&oe=6AEA3ECA",
+      image: "https://scontent.fixc5-3.fna.fbcdn.net/v/t39.30808-6/547010260_1373163487604261_2213593074630674587_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=UVfHgKp9wpsQ7kNvwG3PWjw&_nc_oc=AdopPEOU2rRv6EEKJnwjCofP6rdPWnI-q_UPmwteCLmTV-pPMhcJyCNXb6ciQpOnl5g&_nc_zt=23&_nc_ht=scontent.fixc5-3.fna&_nc_gid=03tN7ZxIdB9hn5a2QUMG9g&_nc_ss=7b2a8&oh=00_AQQY-L5LYviHEzNuqy3bc-csBdC5wF6DrhlV9VFiM3LlyQ&oe=6AFDCD0A",
       cta: {
         text: "Learn more about Melanie",
         href: "https://www.facebook.com/Counsellng",
