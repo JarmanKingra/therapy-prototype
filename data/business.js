@@ -2795,4 +2795,33 @@ export const businesses = {
 },
 
 
+"melinda-goodman-therapy": {
+  slug: "melinda-goodman-therapy",
+
+  brand: {
+    name: "Melinda Goodman Therapy",
+    shortName: "Melinda Goodman",
+    tagline:
+      "A safe, welcoming and non-judgmental space to explore your feelings, understand yourself and work towards positive change.",
+  },
+
+  contact: {
+    phone: "+1 (240) 384-5452",
+    email: "melinda@gmail.com",
+    city: "Baltimore, MD 21230",
+    address: "United States",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Dr. Melinda Goodman",
+    title: "Therapist & Counsellor",
+    image: "https://photos.psychologytoday.com/99bf6210-3083-4009-8f4b-348b03bc597a/2/320x400.jpeg",
+    cta: {
+      text: "Learn more about Melinda",
+      href: "https://www.psychologytoday.com/us/therapists/melinda-goodman-baltimore-md/164940",
+    },
+  },
+},
+
 };
