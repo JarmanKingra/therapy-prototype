@@ -1932,11 +1932,11 @@ export const businesses = {
     },
 
     contact: {
-      phone: "+44 123456789",
-      email: "Yaakov@gmail.com@outlook.com",
-      city: "United Kindom",
+      phone: "+1 123456789",
+      email: "Yaakov@gmail.com",
+      city: "Baltimore, United States",
       address:
-        "The Changing Rooms, Sudley Estate and Fields, Liverpool L18 8BX, United Kingdom",
+        "Liverpool L18 8BX, United States",
       bookingUrl: "#contact",
     },
 
