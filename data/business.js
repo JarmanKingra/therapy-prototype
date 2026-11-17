@@ -2824,4 +2824,33 @@ export const businesses = {
   },
 },
 
+"mira-therapy": {
+  slug: "mira-therapy",
+
+  brand: {
+    name: "Mira Counselling",
+    shortName: "Mira",
+    tagline:
+      "A safe, welcoming and non-judgmental space to explore your feelings, understand yourself and work towards positive change.",
+  },
+
+  contact: {
+    phone: "+44 (123) 456-7890",
+    email: "miracouncelling@gmail.com",
+    city: "Belfast, Northern Ireland",
+    address: "United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Eoghan O'Hagan",
+    title: "Therapist & Counsellor",
+    image: "https://media.licdn.com/dms/image/v2/D4E03AQF3bqTRz5GFHg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723648815648?e=1796256000&v=beta&t=tGHqKy4Zo7kmvFvgEJIRkNQz4iGcn1INi3-oJZwQTlE",
+    cta: {
+      text: "Learn more about Eoghan",
+      href: "https://www.linkedin.com/in/eoghanohagan/",
+    },
+  },
+},
+
 };
