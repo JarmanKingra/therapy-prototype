@@ -2853,4 +2853,33 @@ export const businesses = {
   },
 },
 
+"eleni-kypridemos": {
+  slug: "eleni-kypridemos",
+
+  brand: {
+    name: "Eleni Kypridemos",
+    shortName: "Eleni Kypridemos",
+    tagline:
+      "A safe, welcoming and non-judgmental space to explore your feelings, understand yourself and work towards positive change.",
+  },
+
+  contact: {
+    phone: "+44 (123) 456-7890",
+    email: "Eleni@gmail.com",
+    city: "Birmindham,",
+    address: "United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Eleni Kypridemos",
+    title: "Therapist & Counsellor",
+    image: "https://images.squarespace-cdn.com/content/v1/6aa81287f243f45cf0976aff/e136d940-e89e-44e3-bf39-e9ce203058c5/me.jpg?format=2500w",
+    cta: {
+      text: "Learn more about Eleni",
+      href: "https://www.counselling-practice.com/",
+    },
+  },
+},
+
 };
