@@ -2882,4 +2882,33 @@ export const businesses = {
   },
 },
 
+"tray-louise": {
+  slug: "tray-louise",
+
+  brand: {
+    name: "Tray Louise",
+    shortName: "Tray Louise",
+    tagline:
+      "A safe, welcoming and non-judgmental space to explore your feelings, understand yourself and work towards positive change.",
+  },
+
+  contact: {
+    phone: "07506 766 068",
+    email: "louise@gmail.com",
+    city: "Birmingham, West Midlands,",
+    address: "United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Tray Louise Somerville",
+    title: "Therapist & Counsellor",
+    image: "https://cdn.memiah.co.uk/uploads/counselling-directory.org.uk/101332/default/profile_6ac7b110256ad.png?v=1794205679",
+    cta: {
+      text: "Learn more about Tray",
+      href: "https://www.counselling-directory.org.uk/counsellors/tray-somerville",
+    },
+  },
+},
+
 };
