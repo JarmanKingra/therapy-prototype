@@ -2911,4 +2911,33 @@ export const businesses = {
   },
 },
 
+"laura-mannucci": {
+  slug: "laura-mannucci",
+
+  brand: {
+    name: "Laura Mannucci",
+    shortName: "Laura Mannucci",
+    tagline:
+      "A safe, welcoming and non-judgmental space to explore your feelings, understand yourself and work towards positive change.",
+  },
+
+  contact: {
+    phone: "7926 443 162",
+    email: "laura@gmail.com",
+    city: "Birmingham, West Midlands,",
+    address: "United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Laura Mannucci",
+    title: "Therapist & Counsellor",
+    image: "https://static.wixstatic.com/media/9db857_e73cba6136d748a38ba8b16214943db4~mv2.jpeg/v1/fill/w_630,h_574,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/laura.jpeg",
+    cta: {
+      text: "Learn more about Laura",
+      href: "https://www.lauramannucci.com/",
+    },
+  },
+},
+
 };
