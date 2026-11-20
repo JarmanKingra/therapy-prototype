@@ -55,8 +55,6 @@ export default async function TherapyPage({ params }) {
                 "--business-primary": commons.theme.primary,
                 "--business-primary-dark": commons.theme.primaryDark,
                 "--business-accent": commons.theme.accent,
-                // "--business-soft": business.theme.soft,
-                // "--business-cream": business.theme.cream,
             }}
         >
             <Header business={business} commons={commons}/>

@@ -2940,4 +2940,33 @@ export const businesses = {
   },
 },
 
+"kay-dyer": {
+  slug: "kay-dyer",
+
+  brand: {
+    name: "Kay Dyer",
+    shortName: "Kay Dyer",
+    tagline:
+      "A safe, welcoming and non-judgmental space to explore your feelings, understand yourself and work towards positive change.",
+  },
+
+  contact: {
+    phone: "07918 870 477",
+    email: "kay@gmail.com",
+    city: "West Midlands, B72.",
+    address: "United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Kay Dyer",
+    title: "Therapist & Counsellor",
+    image: "https://cdn.memiah.co.uk/uploads/counselling-directory.org.uk/93481/default/profile_6ab39b4eb4d3a.jpg?v=1790348799",
+    cta: {
+      text: "Learn more about Kay",
+      href: "https://www.counselling-directory.org.uk/counsellors/kay-dyer",
+    },
+  },
+},
+
 };
