@@ -2969,4 +2969,33 @@ export const businesses = {
   },
 },
 
+"here-2-hear": {
+  slug: "here-to-hear",
+
+  brand: {
+    name: "Here 2 Hear",
+    shortName: "Here 2 Hear",
+    tagline:
+      "A safe, welcoming and non-judgmental space to explore your feelings, understand yourself and work towards positive change.",
+  },
+
+  contact: {
+    phone: "07456 798 875",
+    email: "marcia@gmail.com",
+    city: "West Midlands, B9.",
+    address: "United Kingdom",
+    bookingUrl: "#contact",
+  },
+
+  therapist: {
+    name: "Marcia Dixon",
+    title: "Therapist & Counsellor",
+    image: "https://cdn.memiah.co.uk/uploads/counselling-directory.org.uk/57824/default/profile_5a5568c70cffd.jpg?v=1775632520",
+    cta: {
+      text: "Learn more about Marcia",
+      href: "https://www.counselling-directory.org.uk/counsellors/marcia-dixon",
+    },
+  },
+},
+
 };
